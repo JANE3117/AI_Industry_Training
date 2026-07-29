@@ -1,0 +1,4 @@
+# Claude Code local session state at the repo root — not project source.
+# Anchored (leading slash) so it does NOT also match furniture-app/.claude/,
+# which holds legitimate vendored reference docs that should stay tracked.
+/.claude/

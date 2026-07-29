@@ -1,0 +1,55 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+// All money fields (budget, price, total, unitPrice) are stored as whole
+// cents (e.g. 1250 = A$12.50), never as decimals. See lib/money.ts.
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  budget       Int
+  orders       Order[]
+  createdAt    DateTime @default(now())
+}
+
+model Product {
+  id          String  @id @default(cuid())
+  name        String
+  description String
+  price       Int
+  imageUrl    String
+  category    String
+  stock       Int
+  orderItems  OrderItem[]
+}
+
+model Order {
+  id        String      @id @default(cuid())
+  userId    String
+  user      User        @relation(fields: [userId], references: [id])
+  createdAt DateTime    @default(now())
+  total     Int
+  status    String      @default("placed")
+  items     OrderItem[]
+}
+
+model OrderItem {
+  id        String  @id @default(cuid())
+  orderId   String
+  order     Order   @relation(fields: [orderId], references: [id])
+  productId String
+  product   Product @relation(fields: [productId], references: [id])
+  quantity  Int
+  unitPrice Int
+}
