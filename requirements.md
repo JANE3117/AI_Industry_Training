@@ -1,4 +1,4 @@
-# Furniture Buyer's App — Requirements
+# Jane's Furniture Buyer Site — Requirements
 
 This is the "what to build" document. For "why we chose this technology" and
 "how to work with Claude on this project", see [CLAUDE.md](CLAUDE.md). For
@@ -42,9 +42,11 @@ the bottom up.
 
 - **Must** — A logged-in buyer sees a list of furniture products: name,
   image, price.
-- **Must** — Prices are shown clearly (e.g. "£125.00"), never as raw numbers.
+- **Must** — Prices are shown clearly (e.g. "A$125.00"), never as raw numbers.
 - **Should** — Products can be filtered or grouped by category (e.g. Chairs,
-  Tables, Storage).
+  Tables, Storage). Was a nice-to-have when the plan was ~12 demo products;
+  worth revisiting now that the real catalogue is 762 products across 17
+  categories and only the first 24 are shown (see [architecture.md](architecture.md)).
 - **Should** — Each product has a short description.
 - **Could** — Search by name.
 - **Could** — Sort by price.
@@ -56,7 +58,7 @@ the bottom up.
 - **Must** — A buyer can add a product to their basket and choose a quantity.
 - **Must** — The basket shows a running total.
 - **Must** — The buyer's remaining budget is visible at all times while
-  shopping (e.g. "£340 of £500 remaining").
+  shopping (e.g. "A$340 of A$500 remaining").
 - **Must** — If the basket total would exceed the remaining budget, the buyer
   is stopped from placing the order and told why.
 - **Should** — A buyer can remove an item or change its quantity in the
@@ -81,8 +83,11 @@ the bottom up.
 
 - **Users**: a handful of demo buyer accounts, seeded in advance — no
   self-registration needed for the demo.
-- **Data**: a few demo buyers and roughly a dozen demo products, seeded
-  automatically so the app looks populated the moment it starts.
+- **Data**: a few demo buyers, seeded automatically. The product catalogue
+  is 762 real furniture items imported from an external source (see
+  [architecture.md](architecture.md)) rather than hand-written placeholders
+  — bigger than originally planned, which is why the catalogue page caps
+  what it displays at once (see 3.2).
 - **Devices**: must work in a modern desktop browser (Chrome/Edge/Firefox).
   Mobile-friendly is a bonus, not a requirement.
 - **Performance**: no specific target — this is a small demo dataset, not a
@@ -92,8 +97,10 @@ the bottom up.
   browser) so it can't be bypassed by disabling a button. Beyond that —
   rate limiting, HTTPS in production, audit logging — is explicitly out of
   scope for Day 1. See "Known limits" in [CLAUDE.md](CLAUDE.md).
-- **Deployment**: runs locally for the demo. Whether it also needs a public
-  URL is an open question — see below.
+- **Deployment**: runs locally, exposed to the internet for demo purposes via
+  a temporary tunnel (see [CLAUDE.md](CLAUDE.md)) rather than a hosted
+  deployment. Whether it needs to survive independently of one laptop is
+  still an open question — see below.
 
 ## 5. Out of scope for Day 1 (explicit)
 
@@ -121,7 +128,12 @@ The app is demo-ready when someone can, without any coding help:
 (Duplicated from [CLAUDE.md](CLAUDE.md) so they're visible in the requirements
 doc too — resolve here or there, whichever is more convenient.)
 
-- Does this need to be deployed to a public URL, or is a local demo enough?
-- Is real product data/images available, or should we use placeholders?
+- Resolved: real product data is in use (762 items from an external source,
+  not placeholders), and the app is reachable via a public URL (a temporary
+  tunnel, not a hosted deployment).
+- If the app needs to be reachable independently of one laptop being on
+  (e.g. a judge checking it later without you online), that's a real
+  deployment — bigger step than what's built so far, see
+  [architecture.md](architecture.md) section 7.
 - Is the budget per-buyer and fixed, or does it reset on a schedule (e.g.
   monthly)?
