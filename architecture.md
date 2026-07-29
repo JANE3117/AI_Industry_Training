@@ -148,7 +148,7 @@ order (**OrderItem**).
 ```mermaid
 classDiagram
     class User {
-        int id
+        string id
         string email
         string passwordHash
         string name
@@ -156,7 +156,7 @@ classDiagram
     }
 
     class Product {
-        int id
+        string id
         string name
         string description
         int price
@@ -166,14 +166,14 @@ classDiagram
     }
 
     class Order {
-        int id
+        string id
         datetime createdAt
         int total
         string status
     }
 
     class OrderItem {
-        int id
+        string id
         int quantity
         int unitPrice
     }
@@ -184,6 +184,12 @@ classDiagram
 ```
 
 ### In plain English
+
+Every `id` above is a **string**, not a counting number like 1, 2, 3 —
+Prisma generates something like `cms5debye00005ygnxfnipqwf` (a "cuid") for
+each new row. That's normal for this setup, not a bug; if you ever open
+`npx prisma studio` and see IDs that look like that instead of small
+numbers, this is why.
 
 - **User** is one buyer account: their login details (email +
   `passwordHash` — never the real password) and their **budget**, the total
@@ -242,13 +248,16 @@ same as the diagram in section 1 shows. Worth knowing if this runs again:
 
 ## 5. Security model (demo-grade, stated plainly)
 
-- Passwords: hashed with bcrypt before storage. Never logged, never stored
-  as plain text.
-- Sessions: a signed cookie naming the user id. "Signed" means the server can
-  detect if a buyer tampers with the cookie's contents (they can't forge
-  being a different user), but the cookie is not encrypted, and there's no
-  expiry/rotation/rate-limiting logic. Fine for a demo; not fine for
-  production.
+- Passwords: hashed with bcrypt before storage, never stored as plain text.
+  One deliberate exception: `prisma/seed.ts` prints the demo accounts'
+  plaintext passwords to the console when it runs, so whoever seeds the
+  database can see the demo logins — fine for known, fake credentials.
+- Sessions: a signed cookie naming the user id, valid for one week
+  (`maxAge` on the cookie) before it expires and forces a fresh login.
+  "Signed" means the server can detect if a buyer tampers with the cookie's
+  contents (they can't forge being a different user), but the cookie is not
+  encrypted, and there's no rotation or rate-limiting logic. Fine for a
+  demo; not fine for production.
 - Authorization: every API route re-checks *who* is asking (via the cookie)
   before returning or changing *their* data. A buyer can only ever see their
   own orders and budget, not another buyer's — enforced server-side, not by
@@ -264,8 +273,12 @@ same as the diagram in section 1 shows. Worth knowing if this runs again:
 
 - Runs entirely on one machine, no external services.
 - The database is a single file (`dev.db`, project root — not inside
-  `prisma/`, see the gotcha in [CLAUDE.md](CLAUDE.md)) — delete it and
-  `npm run seed` to reset to a clean demo state at any point.
+  `prisma/`, see the gotcha in [CLAUDE.md](CLAUDE.md)). To reset to a clean
+  demo state: delete it, run `npx prisma db push` (recreates the empty
+  tables — there's no `prisma/migrations` folder, so nothing else does
+  this), then `npm run seed`. Skipping the `db push` step and seeding
+  straight into a freshly-deleted file fails with a `no such table: User`
+  error, since the schema itself is gone, not just the rows.
 - `npx prisma studio` opens a browser tab showing the database as clickable
   tables — the easiest way to check "did that order actually save?" without
   reading any code.
@@ -288,8 +301,13 @@ judge opening it after the hackathon, with nobody's machine turned on):
 that's a real deployment, and does require a code-relevant change —
 SQLite's one-file database doesn't persist on most serverless hosts (e.g.
 Vercel resets the filesystem on every deploy). Swapping to a hosted
-Postgres database is a small, well-defined change — mostly one line in
-`prisma/schema.prisma` plus a connection string — not a rewrite. Everything
-else (pages, API routes, login logic) is host-agnostic and wouldn't need to
-change. Deliberately not done yet — see the open questions in
+Postgres database is well-defined, not a rewrite, but touches more than
+just `prisma/schema.prisma`: because Prisma 7 requires a driver adapter
+even for SQLite (see [CLAUDE.md](CLAUDE.md)), `PrismaLibSql` is constructed
+directly in three separate files — `src/lib/db.ts`, `prisma/seed.ts`, and
+`scripts/import-catalog.ts` — and each would need to swap to a Postgres
+adapter, alongside the schema's provider line and a new connection string.
+Everything else (pages, API routes, login logic) is host-agnostic and
+wouldn't need to change. Deliberately not done yet — see the open questions
+in
 [requirements.md](requirements.md).

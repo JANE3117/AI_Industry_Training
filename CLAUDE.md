@@ -220,7 +220,11 @@ anything with real data).
   Numeric values were never actually run through an AUD exchange rate — the
   same integers that were shown with a `£` prefix are now shown with an
   `A$` prefix. Flag it if real currency conversion ever matters.
-- Never store or log a plaintext password.
+- Never store or log a plaintext password, **with one deliberate exception**:
+  `prisma/seed.ts` prints the demo accounts' plaintext passwords to the
+  console when it runs, so whoever seeds the database can see the demo
+  logins. Fine for known, fake demo credentials; would not be fine for a
+  real user's password.
 - Server-side checks are the real checks. Hiding a disabled button is a
   courtesy to the user, not a budget control — the checkout API route
   (`/api/checkout`) always re-fetches current prices and re-checks the
