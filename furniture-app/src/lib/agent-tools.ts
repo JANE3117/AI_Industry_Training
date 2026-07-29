@@ -1,9 +1,14 @@
 import { prisma } from "@/lib/db";
 import { searchCatalogue, getProductDetail, getBalance } from "@/lib/catalogue-api";
+import { semanticSearchCatalogue } from "@/lib/rag-search";
 
-// The four things the furniture shop's API can actually do, wired up as
-// tools for the shopping-assistant model. See catalogue-api.ts for what
-// each endpoint really returns and doesn't.
+// The things the furniture shop's API can actually do, wired up as tools
+// for the shopping-assistant model. See catalogue-api.ts for what each
+// endpoint really returns and doesn't. semantic_search_catalogue (Step 7)
+// is the odd one out — it doesn't call the shop's API at all, it searches
+// pre-built embeddings over the same 762-product catalogue (see
+// lib/rag-search.ts) for questions search_catalogue's exact category match
+// can't answer.
 export const TOOLS = [
   {
     type: "function" as const,
@@ -41,6 +46,24 @@ export const TOOLS = [
           },
         },
         required: ["item_id"],
+      },
+    },
+  },
+  {
+    type: "function" as const,
+    function: {
+      name: "semantic_search_catalogue",
+      description:
+        "Search the furniture catalogue by meaning rather than exact fields — use this for open-ended requests search_catalogue can't handle, like 'something like a Scandinavian side table but cheaper', 'what's your most affordable option in blue', or vague vibes ('cosy', 'minimalist'). Returns the closest-matching products with their item_id, name, category, price (AUD), and dimensions, ranked by relevance — not necessarily an exact match, so use judgement about whether a result actually fits what the user asked for. Prefer search_catalogue instead when the user gives an exact category name.",
+      parameters: {
+        type: "object",
+        properties: {
+          question: {
+            type: "string",
+            description: "The user's request, in their own words.",
+          },
+        },
+        required: ["question"],
       },
     },
   },
@@ -104,6 +127,15 @@ export async function executeTool(name: string, args: Record<string, unknown>): 
         return { content: JSON.stringify({ error: `No product with item_id '${itemId}'.` }) };
       }
       return { content: JSON.stringify(detail) };
+    }
+
+    case "semantic_search_catalogue": {
+      const question = typeof args.question === "string" ? args.question : "";
+      if (!question) {
+        return { content: JSON.stringify({ error: "No question given." }) };
+      }
+      const matches = await semanticSearchCatalogue(question);
+      return { content: JSON.stringify(matches) };
     }
 
     case "check_balance": {

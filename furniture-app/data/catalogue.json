@@ -1,0 +1,6860 @@
+[
+  {
+    "itemId": "00368814",
+    "name": "Bar table",
+    "category": "Bar furniture",
+    "priceCents": 39800,
+    "width": 80,
+    "height": 105,
+    "depth": null
+  },
+  {
+    "itemId": "30180504",
+    "name": "Wall-mounted dropleaf table",
+    "category": "Bar furniture",
+    "priceCents": 9000,
+    "width": 74,
+    "height": 43,
+    "depth": 60
+  },
+  {
+    "itemId": "10122647",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 13800,
+    "width": 40,
+    "height": 91,
+    "depth": 45
+  },
+  {
+    "itemId": "70404875",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 5160,
+    "width": 50,
+    "height": 95,
+    "depth": 44
+  },
+  {
+    "itemId": "60155602",
+    "name": "Bar stool",
+    "category": "Bar furniture",
+    "priceCents": 7800,
+    "width": 50,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "69304221",
+    "name": "Bar table and 4 bar stools",
+    "category": "Bar furniture",
+    "priceCents": 87040,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90404879",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 5960,
+    "width": 52,
+    "height": 103,
+    "depth": 44
+  },
+  {
+    "itemId": "00121766",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 15800,
+    "width": 40,
+    "height": 102,
+    "depth": 45
+  },
+  {
+    "itemId": "00397736",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 15800,
+    "width": 46,
+    "height": 103,
+    "depth": 47
+  },
+  {
+    "itemId": "29304826",
+    "name": "Table",
+    "category": "Bar furniture",
+    "priceCents": 27800,
+    "width": 70,
+    "height": 105,
+    "depth": null
+  },
+  {
+    "itemId": "70246089",
+    "name": "Bar stool",
+    "category": "Bar furniture",
+    "priceCents": 23800,
+    "width": 38,
+    "height": 84,
+    "depth": 36
+  },
+  {
+    "itemId": "00340759",
+    "name": "Bar table",
+    "category": "Bar furniture",
+    "priceCents": 39800,
+    "width": 80,
+    "height": 105,
+    "depth": null
+  },
+  {
+    "itemId": "00400545",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 13800,
+    "width": 43,
+    "height": 114,
+    "depth": 51
+  },
+  {
+    "itemId": "10400540",
+    "name": "Bar stool with backrest",
+    "category": "Bar furniture",
+    "priceCents": 13800,
+    "width": 43,
+    "height": 114,
+    "depth": 52
+  },
+  {
+    "itemId": "29297227",
+    "name": "Bar table and 2 bar stools",
+    "category": "Bar furniture",
+    "priceCents": 53600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "99323925",
+    "name": "Bar table",
+    "category": "Bar furniture",
+    "priceCents": 22000,
+    "width": 70,
+    "height": 104,
+    "depth": null
+  },
+  {
+    "itemId": "60400745",
+    "name": "Bar stool",
+    "category": "Bar furniture",
+    "priceCents": 19000,
+    "width": 40,
+    "height": null,
+    "depth": 40
+  },
+  {
+    "itemId": "9288224",
+    "name": "Bar table",
+    "category": "Bar furniture",
+    "priceCents": 22000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30135658",
+    "name": "Bar stool",
+    "category": "Bar furniture",
+    "priceCents": 17800,
+    "width": 50,
+    "height": 100,
+    "depth": 52
+  },
+  {
+    "itemId": "29123958",
+    "name": "Ext bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 15800,
+    "width": 85,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "49278341",
+    "name": "Bed frame w storage and headboard",
+    "category": "Beds",
+    "priceCents": 35800,
+    "width": 96,
+    "height": 110,
+    "depth": 54
+  },
+  {
+    "itemId": "50461230",
+    "name": "Cot",
+    "category": "Beds",
+    "priceCents": 23800,
+    "width": 66,
+    "height": 79,
+    "depth": null
+  },
+  {
+    "itemId": "89326463",
+    "name": "Bed frame with 4 drawers",
+    "category": "Beds",
+    "priceCents": 84440,
+    "width": 140,
+    "height": 43,
+    "depth": 40
+  },
+  {
+    "itemId": "69326609",
+    "name": "Ext bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 21600,
+    "width": 91,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "59099136",
+    "name": "Bed frame w storage and headboard",
+    "category": "Beds",
+    "priceCents": 31800,
+    "width": 146,
+    "height": 111,
+    "depth": null
+  },
+  {
+    "itemId": "40395245",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 3960,
+    "width": 94,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "69277307",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 47800,
+    "width": 188,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70395239",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 7960,
+    "width": 144,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89931560",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 27000,
+    "width": 154,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30446373",
+    "name": "Upholstered bed frame",
+    "category": "Beds",
+    "priceCents": 23800,
+    "width": 144,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19254209",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 21800,
+    "width": 148,
+    "height": 140,
+    "depth": null
+  },
+  {
+    "itemId": "20400691",
+    "name": "Bed frame with storage",
+    "category": "Beds",
+    "priceCents": 23000,
+    "width": 96,
+    "height": 47,
+    "depth": 54
+  },
+  {
+    "itemId": "39019701",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 17800,
+    "width": 147,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "29931596",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 19800,
+    "width": 156,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "29179554",
+    "name": "Day-bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 17800,
+    "width": 97,
+    "height": 80,
+    "depth": null
+  },
+  {
+    "itemId": "9241043",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 15800,
+    "width": 153,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19175957",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 36800,
+    "width": 196,
+    "height": 15,
+    "depth": 59
+  },
+  {
+    "itemId": "19185433",
+    "name": "Bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 7800,
+    "width": 77,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79902935",
+    "name": "Bed frame with storage",
+    "category": "Beds",
+    "priceCents": 23000,
+    "width": 146,
+    "height": 20,
+    "depth": 54
+  },
+  {
+    "itemId": "90349326",
+    "name": "Day-bed frame with 3 drawers",
+    "category": "Beds",
+    "priceCents": 59800,
+    "width": 89,
+    "height": 18,
+    "depth": 70
+  },
+  {
+    "itemId": "99157983",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 23800,
+    "width": 146,
+    "height": 95,
+    "depth": null
+  },
+  {
+    "itemId": "69057522",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 55800,
+    "width": 147,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79012991",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 26800,
+    "width": 105,
+    "height": 15,
+    "depth": 59
+  },
+  {
+    "itemId": "00249487",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 17800,
+    "width": 105,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89227731",
+    "name": "Bed frame with underbed and storage",
+    "category": "Beds",
+    "priceCents": 39800,
+    "width": 96,
+    "height": null,
+    "depth": 57
+  },
+  {
+    "itemId": "69185435",
+    "name": "Bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 14400,
+    "width": 75,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19259631",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 29800,
+    "width": 98,
+    "height": 120,
+    "depth": null
+  },
+  {
+    "itemId": "79227755",
+    "name": "Bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 15000,
+    "width": 96,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90354327",
+    "name": "Sofa-bed",
+    "category": "Beds",
+    "priceCents": 15960,
+    "width": 128,
+    "height": 78,
+    "depth": 85
+  },
+  {
+    "itemId": "10362963",
+    "name": "Pouffe/mattress",
+    "category": "Beds",
+    "priceCents": 17000,
+    "width": 62,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "9241420",
+    "name": "Bed frame w storage and headboard",
+    "category": "Beds",
+    "priceCents": 91600,
+    "width": 240,
+    "height": 16,
+    "depth": 51
+  },
+  {
+    "itemId": "20424362",
+    "name": "Day-bed frame",
+    "category": "Beds",
+    "priceCents": 21960,
+    "width": 88,
+    "height": 94,
+    "depth": null
+  },
+  {
+    "itemId": "69241097",
+    "name": "Bed frame with 2 storage boxes",
+    "category": "Beds",
+    "priceCents": 22800,
+    "width": 153,
+    "height": 14,
+    "depth": 64
+  },
+  {
+    "itemId": "39931609",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 37800,
+    "width": 156,
+    "height": null,
+    "depth": 59
+  },
+  {
+    "itemId": "00239233",
+    "name": "Bunk bed frame",
+    "category": "Beds",
+    "priceCents": 19000,
+    "width": 96,
+    "height": 130,
+    "depth": null
+  },
+  {
+    "itemId": "60116960",
+    "name": "Storage box 2-seat sofa-bed",
+    "category": "Beds",
+    "priceCents": 4000,
+    "width": 92,
+    "height": 21,
+    "depth": 55
+  },
+  {
+    "itemId": "89019992",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 34840,
+    "width": 148,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70305700",
+    "name": "Extendable bed",
+    "category": "Beds",
+    "priceCents": 31800,
+    "width": 90,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79129986",
+    "name": "Bed frame",
+    "category": "Beds",
+    "priceCents": 65600,
+    "width": 154,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00360484",
+    "name": "Stackable bed",
+    "category": "Beds",
+    "priceCents": 27800,
+    "width": 83,
+    "height": 2,
+    "depth": null
+  },
+  {
+    "itemId": "44361010",
+    "name": "Net",
+    "category": "Beds",
+    "priceCents": 1960,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80253809",
+    "name": "Reversible bed",
+    "category": "Beds",
+    "priceCents": 29800,
+    "width": 99,
+    "height": 116,
+    "depth": null
+  },
+  {
+    "itemId": "39216754",
+    "name": "Corner sofa-bed with storage",
+    "category": "Beds",
+    "priceCents": 73840,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30160209",
+    "name": "Slatted bed base",
+    "category": "Beds",
+    "priceCents": 4000,
+    "width": 80,
+    "height": 4,
+    "depth": null
+  },
+  {
+    "itemId": "30248537",
+    "name": "Cot",
+    "category": "Beds",
+    "priceCents": 11800,
+    "width": 66,
+    "height": 80,
+    "depth": null
+  },
+  {
+    "itemId": "99239451",
+    "name": "Underbed with storage",
+    "category": "Beds",
+    "priceCents": 24800,
+    "width": 95,
+    "height": 45,
+    "depth": 57
+  },
+  {
+    "itemId": "50340163",
+    "name": "Foam mattress",
+    "category": "Beds",
+    "priceCents": 18000,
+    "width": 140,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "29291956",
+    "name": "Bed frame w storage+slatted bedbase",
+    "category": "Beds",
+    "priceCents": 55800,
+    "width": 96,
+    "height": 14,
+    "depth": 57
+  },
+  {
+    "itemId": "20228709",
+    "name": "Headboard with storage compartment",
+    "category": "Beds",
+    "priceCents": 8800,
+    "width": 146,
+    "height": 111,
+    "depth": 28
+  },
+  {
+    "itemId": "49046068",
+    "name": "Ext bed frame with slatted bed base",
+    "category": "Beds",
+    "priceCents": 33960,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20404806",
+    "name": "Ottoman bed",
+    "category": "Beds",
+    "priceCents": 63800,
+    "width": 175,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00102452",
+    "name": "Bunk bed frame",
+    "category": "Beds",
+    "priceCents": 31800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40349847",
+    "name": "Bed frame with storage",
+    "category": "Beds",
+    "priceCents": 63800,
+    "width": 140,
+    "height": 16,
+    "depth": 51
+  },
+  {
+    "itemId": "90299449",
+    "name": "Loft bed frame",
+    "category": "Beds",
+    "priceCents": 25800,
+    "width": 97,
+    "height": 179,
+    "depth": null
+  },
+  {
+    "itemId": "40411410",
+    "name": "Desk top",
+    "category": "Beds",
+    "priceCents": 8000,
+    "width": 95,
+    "height": 73,
+    "depth": 45
+  },
+  {
+    "itemId": "00228705",
+    "name": "Day-bed frame with 2 drawers",
+    "category": "Beds",
+    "priceCents": 43800,
+    "width": 86,
+    "height": 21,
+    "depth": 53
+  },
+  {
+    "itemId": "89386070",
+    "name": "Bed frame with 3 storage boxes",
+    "category": "Beds",
+    "priceCents": 50400,
+    "width": 96,
+    "height": 35,
+    "depth": 53
+  },
+  {
+    "itemId": "00102065",
+    "name": "Mattress",
+    "category": "Beds",
+    "priceCents": 19800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00400692",
+    "name": "Headboard with storage compartment",
+    "category": "Beds",
+    "priceCents": 8800,
+    "width": 96,
+    "height": 110,
+    "depth": 28
+  },
+  {
+    "itemId": "90338403",
+    "name": "Bed canopy",
+    "category": "Beds",
+    "priceCents": 2200,
+    "width": 90,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20320128",
+    "name": "Day-bed frame with 2 drawers",
+    "category": "Beds",
+    "priceCents": 59800,
+    "width": 88,
+    "height": 86,
+    "depth": null
+  },
+  {
+    "itemId": "70340567",
+    "name": "3-seat sofa-bed",
+    "category": "Beds",
+    "priceCents": 79800,
+    "width": 225,
+    "height": 74,
+    "depth": 86
+  },
+  {
+    "itemId": "80411272",
+    "name": "Bunk bed frame",
+    "category": "Beds",
+    "priceCents": 51800,
+    "width": 97,
+    "height": 162,
+    "depth": null
+  },
+  {
+    "itemId": "80362974",
+    "name": "Storage box with castors",
+    "category": "Beds",
+    "priceCents": 11800,
+    "width": 62,
+    "height": 35,
+    "depth": 53
+  },
+  {
+    "itemId": "10372976",
+    "name": "Headboard",
+    "category": "Beds",
+    "priceCents": 27800,
+    "width": 240,
+    "height": 84,
+    "depth": null
+  },
+  {
+    "itemId": "20299688",
+    "name": "Leg",
+    "category": "Beds",
+    "priceCents": 1200,
+    "width": 7,
+    "height": null,
+    "depth": 7
+  },
+  {
+    "itemId": "40299687",
+    "name": "Leg",
+    "category": "Beds",
+    "priceCents": 1600,
+    "width": 55,
+    "height": null,
+    "depth": 55
+  },
+  {
+    "itemId": "69302566",
+    "name": "Loft bed frame with desk top",
+    "category": "Beds",
+    "priceCents": 47800,
+    "width": 135,
+    "height": 195,
+    "depth": null
+  },
+  {
+    "itemId": "10248519",
+    "name": "Cot",
+    "category": "Beds",
+    "priceCents": 23800,
+    "width": 66,
+    "height": 80,
+    "depth": null
+  },
+  {
+    "itemId": "60102067",
+    "name": "Mattress",
+    "category": "Beds",
+    "priceCents": 31800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00248567",
+    "name": "Cot",
+    "category": "Beds",
+    "priceCents": 27800,
+    "width": 67,
+    "height": 85,
+    "depth": null
+  },
+  {
+    "itemId": "60431563",
+    "name": "3-seat sofa-bed",
+    "category": "Beds",
+    "priceCents": 73800,
+    "width": 225,
+    "height": 83,
+    "depth": 105
+  },
+  {
+    "itemId": "70299695",
+    "name": "Leg",
+    "category": "Beds",
+    "priceCents": 1600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50456417",
+    "name": "Headboard",
+    "category": "Beds",
+    "priceCents": 3000,
+    "width": 90,
+    "height": 40,
+    "depth": null
+  },
+  {
+    "itemId": "80309613",
+    "name": "Leg",
+    "category": "Beds",
+    "priceCents": 2000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80102066",
+    "name": "Mattress",
+    "category": "Beds",
+    "priceCents": 27800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "59297141",
+    "name": "Frame with mesh baskets",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5400,
+    "width": 25,
+    "height": 70,
+    "depth": 51
+  },
+  {
+    "itemId": "69297287",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 15000,
+    "width": 182,
+    "height": 160,
+    "depth": 51
+  },
+  {
+    "itemId": "70261131",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3800,
+    "width": 60,
+    "height": 180,
+    "depth": 24
+  },
+  {
+    "itemId": "20275814",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4600,
+    "width": 77,
+    "height": 77,
+    "depth": 39
+  },
+  {
+    "itemId": "60282186",
+    "name": "Wall shelf unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7960,
+    "width": 30,
+    "height": 190,
+    "depth": 28
+  },
+  {
+    "itemId": "00278578",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 2360,
+    "width": 60,
+    "height": 140,
+    "depth": 27
+  },
+  {
+    "itemId": "80275887",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 10000,
+    "width": 77,
+    "height": 147,
+    "depth": 39
+  },
+  {
+    "itemId": "50419972",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7000,
+    "width": 80,
+    "height": 160,
+    "depth": 38
+  },
+  {
+    "itemId": "30428326",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1560,
+    "width": 60,
+    "height": 74,
+    "depth": 27
+  },
+  {
+    "itemId": "90282180",
+    "name": "Wall shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1560,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40178591",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3400,
+    "width": 62,
+    "height": 165,
+    "depth": 24
+  },
+  {
+    "itemId": "00263850",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7400,
+    "width": 80,
+    "height": 202,
+    "depth": 28
+  },
+  {
+    "itemId": "50263838",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5800,
+    "width": 40,
+    "height": 202,
+    "depth": 28
+  },
+  {
+    "itemId": "39318031",
+    "name": "Shelving unit in/outdoor",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5480,
+    "width": 180,
+    "height": null,
+    "depth": 27
+  },
+  {
+    "itemId": "30318163",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": 83,
+    "height": null,
+    "depth": 30
+  },
+  {
+    "itemId": "00275848",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7800,
+    "width": 42,
+    "height": 147,
+    "depth": 39
+  },
+  {
+    "itemId": "50214678",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 9000,
+    "width": 51,
+    "height": 175,
+    "depth": 36
+  },
+  {
+    "itemId": "39031411",
+    "name": "1 section",
+    "category": "Bookcases & shelving units",
+    "priceCents": 6600,
+    "width": 78,
+    "height": 171,
+    "depth": 31
+  },
+  {
+    "itemId": "40033763",
+    "name": "Cabinet",
+    "category": "Bookcases & shelving units",
+    "priceCents": 11800,
+    "width": 80,
+    "height": 83,
+    "depth": 30
+  },
+  {
+    "itemId": "50339292",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 19800,
+    "width": 100,
+    "height": 95,
+    "depth": 36
+  },
+  {
+    "itemId": "80263832",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3800,
+    "width": 40,
+    "height": 106,
+    "depth": 28
+  },
+  {
+    "itemId": "19189030",
+    "name": "Wall-mounted cabinet combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 26240,
+    "width": 80,
+    "height": 210,
+    "depth": 35
+  },
+  {
+    "itemId": "80295526",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1000,
+    "width": 56,
+    "height": null,
+    "depth": 16
+  },
+  {
+    "itemId": "50282177",
+    "name": "Wall shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 760,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "69281804",
+    "name": "Bookcase with glassdoors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 36600,
+    "width": 120,
+    "height": 202,
+    "depth": 30
+  },
+  {
+    "itemId": "00287808",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1800,
+    "width": 77,
+    "height": null,
+    "depth": 28
+  },
+  {
+    "itemId": "10261129",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5960,
+    "width": 60,
+    "height": 180,
+    "depth": 24
+  },
+  {
+    "itemId": "29281066",
+    "name": "Bookcase with doors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 15400,
+    "width": 80,
+    "height": 202,
+    "depth": 30
+  },
+  {
+    "itemId": "70301542",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 29000,
+    "width": 182,
+    "height": 182,
+    "depth": 39
+  },
+  {
+    "itemId": "79902657",
+    "name": "Shelving unit with laptop table",
+    "category": "Bookcases & shelving units",
+    "priceCents": 22160,
+    "width": 200,
+    "height": null,
+    "depth": 36
+  },
+  {
+    "itemId": "70342199",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 11800,
+    "width": 51,
+    "height": 136,
+    "depth": 36
+  },
+  {
+    "itemId": "70364290",
+    "name": "Clip-on basket",
+    "category": "Bookcases & shelving units",
+    "priceCents": 760,
+    "width": 13,
+    "height": 15,
+    "depth": null
+  },
+  {
+    "itemId": "60413502",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 31840,
+    "width": 90,
+    "height": 197,
+    "depth": 37
+  },
+  {
+    "itemId": "39287398",
+    "name": "Bookcase with glass door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 13600,
+    "width": 40,
+    "height": 202,
+    "depth": 30
+  },
+  {
+    "itemId": "60419962",
+    "name": "Wire basket",
+    "category": "Bookcases & shelving units",
+    "priceCents": 600,
+    "width": 25,
+    "height": 15,
+    "depth": 51
+  },
+  {
+    "itemId": "00295554",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1000,
+    "width": 56,
+    "height": null,
+    "depth": 36
+  },
+  {
+    "itemId": "20409936",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 15800,
+    "width": 112,
+    "height": 147,
+    "depth": 39
+  },
+  {
+    "itemId": "90301225",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 17800,
+    "width": 60,
+    "height": 190,
+    "depth": 35
+  },
+  {
+    "itemId": "30409295",
+    "name": "Cabinet in/outdoor",
+    "category": "Bookcases & shelving units",
+    "priceCents": 13800,
+    "width": 80,
+    "height": 81,
+    "depth": 35
+  },
+  {
+    "itemId": "69281776",
+    "name": "Bookcase with panel/glass doors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 23400,
+    "width": 80,
+    "height": 202,
+    "depth": 30
+  },
+  {
+    "itemId": "20345633",
+    "name": "Cabinet in/outdoor",
+    "category": "Bookcases & shelving units",
+    "priceCents": 27800,
+    "width": 90,
+    "height": 161,
+    "depth": 35
+  },
+  {
+    "itemId": "99294560",
+    "name": "TV storage combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 27800,
+    "width": 202,
+    "height": 175,
+    "depth": 36
+  },
+  {
+    "itemId": "79017837",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 14800,
+    "width": 160,
+    "height": 202,
+    "depth": 28
+  },
+  {
+    "itemId": "79305098",
+    "name": "Frame/wire baskets/top shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7200,
+    "width": 50,
+    "height": 70,
+    "depth": 51
+  },
+  {
+    "itemId": "79278250",
+    "name": "Shelving unit with 4 inserts",
+    "category": "Bookcases & shelving units",
+    "priceCents": 23800,
+    "width": 147,
+    "height": 112,
+    "depth": 39
+  },
+  {
+    "itemId": "10275862",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 19800,
+    "width": 147,
+    "height": 147,
+    "depth": 39
+  },
+  {
+    "itemId": "69190861",
+    "name": "Cabinet combination with feet",
+    "category": "Bookcases & shelving units",
+    "priceCents": 17400,
+    "width": 105,
+    "height": 107,
+    "depth": 35
+  },
+  {
+    "itemId": "39285827",
+    "name": "Wall-mounted shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3200,
+    "width": 35,
+    "height": 35,
+    "depth": 25
+  },
+  {
+    "itemId": "89248314",
+    "name": "1 section/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 11000,
+    "width": 89,
+    "height": 179,
+    "depth": 30
+  },
+  {
+    "itemId": "00334536",
+    "name": "Cabinet with 4 compartments",
+    "category": "Bookcases & shelving units",
+    "priceCents": 9400,
+    "width": 70,
+    "height": 70,
+    "depth": 35
+  },
+  {
+    "itemId": "40309573",
+    "name": "Storage case",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": 55,
+    "height": 18,
+    "depth": 51
+  },
+  {
+    "itemId": "49046978",
+    "name": "4 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 28200,
+    "width": 307,
+    "height": 171,
+    "depth": 50
+  },
+  {
+    "itemId": "50343147",
+    "name": "Hook for post",
+    "category": "Bookcases & shelving units",
+    "priceCents": 600,
+    "width": 3,
+    "height": 7,
+    "depth": 5
+  },
+  {
+    "itemId": "59182201",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 11400,
+    "width": 80,
+    "height": 237,
+    "depth": 28
+  },
+  {
+    "itemId": "80336433",
+    "name": "Knob",
+    "category": "Bookcases & shelving units",
+    "priceCents": 120,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19306185",
+    "name": "Frame with mesh baskets/castors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 6400,
+    "width": 25,
+    "height": 73,
+    "depth": 51
+  },
+  {
+    "itemId": "69208026",
+    "name": "Storage combination with doors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 69000,
+    "width": 180,
+    "height": 112,
+    "depth": 42
+  },
+  {
+    "itemId": "89017832",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 46000,
+    "width": 160,
+    "height": 202,
+    "depth": 30
+  },
+  {
+    "itemId": "89287433",
+    "name": "Bookcase w hght ext ut/pnl/glss drs",
+    "category": "Bookcases & shelving units",
+    "priceCents": 20200,
+    "width": 40,
+    "height": 237,
+    "depth": 30
+  },
+  {
+    "itemId": "9384051",
+    "name": "Storage combination w doors/drawers",
+    "category": "Bookcases & shelving units",
+    "priceCents": 159440,
+    "width": 270,
+    "height": 197,
+    "depth": 37
+  },
+  {
+    "itemId": "89017827",
+    "name": "Bookcase",
+    "category": "Bookcases & shelving units",
+    "priceCents": 31800,
+    "width": 200,
+    "height": 237,
+    "depth": 28
+  },
+  {
+    "itemId": "70245952",
+    "name": "Frame",
+    "category": "Bookcases & shelving units",
+    "priceCents": 6800,
+    "width": 120,
+    "height": 38,
+    "depth": 40
+  },
+  {
+    "itemId": "10429987",
+    "name": "Adjustable clothes rail",
+    "category": "Bookcases & shelving units",
+    "priceCents": 600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20419964",
+    "name": "Mesh basket",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1000,
+    "width": 50,
+    "height": 15,
+    "depth": 51
+  },
+  {
+    "itemId": "99902661",
+    "name": "Shelving unit with laptop table",
+    "category": "Bookcases & shelving units",
+    "priceCents": 24360,
+    "width": 202,
+    "height": null,
+    "depth": 36
+  },
+  {
+    "itemId": "90344927",
+    "name": "Cabinet with door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3960,
+    "width": 35,
+    "height": 35,
+    "depth": 35
+  },
+  {
+    "itemId": "20278167",
+    "name": "Insert with door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 2000,
+    "width": 33,
+    "height": 33,
+    "depth": 37
+  },
+  {
+    "itemId": "59248377",
+    "name": "3 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 31800,
+    "width": 259,
+    "height": 226,
+    "depth": 30
+  },
+  {
+    "itemId": "69284987",
+    "name": "Cabinet unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 16800,
+    "width": 60,
+    "height": 202,
+    "depth": 40
+  },
+  {
+    "itemId": "90323393",
+    "name": "Drill template",
+    "category": "Bookcases & shelving units",
+    "priceCents": 224,
+    "width": 64,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "9306204",
+    "name": "Frames/clothes rails/shelving units",
+    "category": "Bookcases & shelving units",
+    "priceCents": 23400,
+    "width": 148,
+    "height": 173,
+    "depth": 51
+  },
+  {
+    "itemId": "60245957",
+    "name": "Frame",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4000,
+    "width": 60,
+    "height": 38,
+    "depth": 20
+  },
+  {
+    "itemId": "87749600",
+    "name": "Cross-brace",
+    "category": "Bookcases & shelving units",
+    "priceCents": 200,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "9297488",
+    "name": "Frame with mesh baskets",
+    "category": "Bookcases & shelving units",
+    "priceCents": 9200,
+    "width": 50,
+    "height": 104,
+    "depth": 51
+  },
+  {
+    "itemId": "49061228",
+    "name": "TV bench",
+    "category": "Bookcases & shelving units",
+    "priceCents": 20400,
+    "width": 120,
+    "height": 48,
+    "depth": 40
+  },
+  {
+    "itemId": "19291650",
+    "name": "Shelving unit with 2 cabinets",
+    "category": "Bookcases & shelving units",
+    "priceCents": 50600,
+    "width": 171,
+    "height": 161,
+    "depth": 37
+  },
+  {
+    "itemId": "50293604",
+    "name": "Supporting leg",
+    "category": "Bookcases & shelving units",
+    "priceCents": 600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00338412",
+    "name": "Knob",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1080,
+    "width": 21,
+    "height": null,
+    "depth": 24
+  },
+  {
+    "itemId": "20348896",
+    "name": "Leather handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1960,
+    "width": 25,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90294989",
+    "name": "Storage case",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1960,
+    "width": 69,
+    "height": 19,
+    "depth": 55
+  },
+  {
+    "itemId": "80318165",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1960,
+    "width": 83,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "30333286",
+    "name": "Work bench",
+    "category": "Bookcases & shelving units",
+    "priceCents": 25800,
+    "width": 55,
+    "height": 88,
+    "depth": null
+  },
+  {
+    "itemId": "19291645",
+    "name": "Shelving unit with cabinet",
+    "category": "Bookcases & shelving units",
+    "priceCents": 22800,
+    "width": 80,
+    "height": 161,
+    "depth": 37
+  },
+  {
+    "itemId": "20423720",
+    "name": "Insert with 1 shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3000,
+    "width": 33,
+    "height": 33,
+    "depth": null
+  },
+  {
+    "itemId": "49297491",
+    "name": "Frame with mesh baskets/castors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7800,
+    "width": 50,
+    "height": 73,
+    "depth": 51
+  },
+  {
+    "itemId": "59317554",
+    "name": "Frame/wire baskets/clothes rails",
+    "category": "Bookcases & shelving units",
+    "priceCents": 20600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "10338421",
+    "name": "Knob",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1080,
+    "width": 20,
+    "height": null,
+    "depth": 28
+  },
+  {
+    "itemId": "70391038",
+    "name": "Shelving unit with plinth",
+    "category": "Bookcases & shelving units",
+    "priceCents": 27800,
+    "width": 61,
+    "height": 212,
+    "depth": 37
+  },
+  {
+    "itemId": "80344923",
+    "name": "Cabinet with 2 drawers",
+    "category": "Bookcases & shelving units",
+    "priceCents": 15000,
+    "width": 70,
+    "height": 35,
+    "depth": 35
+  },
+  {
+    "itemId": "49189203",
+    "name": "Cabinet combination with feet",
+    "category": "Bookcases & shelving units",
+    "priceCents": 20600,
+    "width": 105,
+    "height": 72,
+    "depth": 35
+  },
+  {
+    "itemId": "40347508",
+    "name": "Knob",
+    "category": "Bookcases & shelving units",
+    "priceCents": 880,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80334617",
+    "name": "Connection fittings",
+    "category": "Bookcases & shelving units",
+    "priceCents": 480,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "10318159",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1000,
+    "width": 42,
+    "height": null,
+    "depth": 30
+  },
+  {
+    "itemId": "30269129",
+    "name": "TV bench",
+    "category": "Bookcases & shelving units",
+    "priceCents": 47800,
+    "width": 180,
+    "height": 49,
+    "depth": 41
+  },
+  {
+    "itemId": "00286677",
+    "name": "Post",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60293566",
+    "name": "Leg",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": 44,
+    "height": 100,
+    "depth": 44
+  },
+  {
+    "itemId": "39272641",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 13800,
+    "width": 65,
+    "height": 110,
+    "depth": 40
+  },
+  {
+    "itemId": "10265293",
+    "name": "Extra shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1200,
+    "width": 36,
+    "height": null,
+    "depth": 26
+  },
+  {
+    "itemId": "20245959",
+    "name": "Frame",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4400,
+    "width": 60,
+    "height": 64,
+    "depth": 20
+  },
+  {
+    "itemId": "60334312",
+    "name": "Handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70340044",
+    "name": "Foot",
+    "category": "Bookcases & shelving units",
+    "priceCents": 600,
+    "width": 8,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79189150",
+    "name": "Wall-mounted cabinet combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 41760,
+    "width": 175,
+    "height": 210,
+    "depth": 35
+  },
+  {
+    "itemId": "10333287",
+    "name": "Post",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4200,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40299885",
+    "name": "TV bench",
+    "category": "Bookcases & shelving units",
+    "priceCents": 19000,
+    "width": 120,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "40348715",
+    "name": "Drawer runner",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39323990",
+    "name": "Frame/mesh baskets/shelving units",
+    "category": "Bookcases & shelving units",
+    "priceCents": 26400,
+    "width": 99,
+    "height": 173,
+    "depth": 51
+  },
+  {
+    "itemId": "70347516",
+    "name": "Handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": 17,
+    "height": null,
+    "depth": 30
+  },
+  {
+    "itemId": "29248374",
+    "name": "3 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 31800,
+    "width": 259,
+    "height": 179,
+    "depth": 30
+  },
+  {
+    "itemId": "9305068",
+    "name": "Storage combination with doors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 55600,
+    "width": 120,
+    "height": 202,
+    "depth": 42
+  },
+  {
+    "itemId": "30333842",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3800,
+    "width": 84,
+    "height": null,
+    "depth": 54
+  },
+  {
+    "itemId": "39283003",
+    "name": "Shelving unit with cabinet",
+    "category": "Bookcases & shelving units",
+    "priceCents": 34200,
+    "width": 85,
+    "height": 190,
+    "depth": 40
+  },
+  {
+    "itemId": "39272655",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 15000,
+    "width": 85,
+    "height": 110,
+    "depth": 55
+  },
+  {
+    "itemId": "80339790",
+    "name": "Knob",
+    "category": "Bookcases & shelving units",
+    "priceCents": 680,
+    "width": 24,
+    "height": null,
+    "depth": 18
+  },
+  {
+    "itemId": "99031408",
+    "name": "3 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 29400,
+    "width": 230,
+    "height": 171,
+    "depth": 50
+  },
+  {
+    "itemId": "20245964",
+    "name": "Frame",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5400,
+    "width": 60,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "00351248",
+    "name": "Drawer frame",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3000,
+    "width": 60,
+    "height": 25,
+    "depth": 40
+  },
+  {
+    "itemId": "70299879",
+    "name": "TV bench",
+    "category": "Bookcases & shelving units",
+    "priceCents": 23800,
+    "width": 180,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "00338407",
+    "name": "Handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": 9,
+    "height": null,
+    "depth": 31
+  },
+  {
+    "itemId": "99291646",
+    "name": "Shelving unit in/outdoor",
+    "category": "Bookcases & shelving units",
+    "priceCents": 18000,
+    "width": 80,
+    "height": 162,
+    "depth": 35
+  },
+  {
+    "itemId": "20291630",
+    "name": "Door/drawer front",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5000,
+    "width": 60,
+    "height": 38,
+    "depth": null
+  },
+  {
+    "itemId": "00340047",
+    "name": "Suspension rail",
+    "category": "Bookcases & shelving units",
+    "priceCents": 600,
+    "width": 29,
+    "height": 4,
+    "depth": 1
+  },
+  {
+    "itemId": "10291678",
+    "name": "Drawer front",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1800,
+    "width": 60,
+    "height": 26,
+    "depth": null
+  },
+  {
+    "itemId": "40351246",
+    "name": "Drawer frame",
+    "category": "Bookcases & shelving units",
+    "priceCents": 2400,
+    "width": 60,
+    "height": 15,
+    "depth": 40
+  },
+  {
+    "itemId": "70370352",
+    "name": "Drop handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1160,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40310208",
+    "name": "Bottle rack",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1800,
+    "width": 83,
+    "height": 3,
+    "depth": 30
+  },
+  {
+    "itemId": "50300015",
+    "name": "Cabinet with 2 doors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 19800,
+    "width": 76,
+    "height": 66,
+    "depth": 40
+  },
+  {
+    "itemId": "40263853",
+    "name": "Height extension unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4000,
+    "width": 80,
+    "height": 35,
+    "depth": 28
+  },
+  {
+    "itemId": "90291698",
+    "name": "Door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 7000,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "9188842",
+    "name": "Wall-mounted cabinet combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 16560,
+    "width": 105,
+    "height": 120,
+    "depth": 35
+  },
+  {
+    "itemId": "19275136",
+    "name": "Storage combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 89400,
+    "width": 142,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "39248359",
+    "name": "2 sections/shelves/cabine",
+    "category": "Bookcases & shelving units",
+    "priceCents": 40000,
+    "width": 174,
+    "height": 179,
+    "depth": 30
+  },
+  {
+    "itemId": "69294566",
+    "name": "TV storage combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 41400,
+    "width": 300,
+    "height": 175,
+    "depth": 36
+  },
+  {
+    "itemId": "50275596",
+    "name": "Door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4000,
+    "width": 40,
+    "height": 97,
+    "depth": null
+  },
+  {
+    "itemId": "90333938",
+    "name": "Cabinet w door and 1 shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 10000,
+    "width": 35,
+    "height": 70,
+    "depth": 35
+  },
+  {
+    "itemId": "80291632",
+    "name": "Door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 6000,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "90347515",
+    "name": "Cup handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1400,
+    "width": 22,
+    "height": null,
+    "depth": 30
+  },
+  {
+    "itemId": "00275674",
+    "name": "Panel/glass door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 9800,
+    "width": 40,
+    "height": 192,
+    "depth": null
+  },
+  {
+    "itemId": "10388661",
+    "name": "Plinth",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3200,
+    "width": 81,
+    "height": 12,
+    "depth": 37
+  },
+  {
+    "itemId": "29286399",
+    "name": "Wall-mounted cabinet combination",
+    "category": "Bookcases & shelving units",
+    "priceCents": 26440,
+    "width": 175,
+    "height": 70,
+    "depth": 35
+  },
+  {
+    "itemId": "79265926",
+    "name": "Storage combination w glass doors",
+    "category": "Bookcases & shelving units",
+    "priceCents": 119200,
+    "width": 203,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "79272677",
+    "name": "Shelving unit with cabinets",
+    "category": "Bookcases & shelving units",
+    "priceCents": 53400,
+    "width": 161,
+    "height": 133,
+    "depth": 40
+  },
+  {
+    "itemId": "50357002",
+    "name": "Handle",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "49248354",
+    "name": "2 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 35120,
+    "width": 174,
+    "height": 226,
+    "depth": 50
+  },
+  {
+    "itemId": "40104109",
+    "name": "Corner fittings",
+    "category": "Bookcases & shelving units",
+    "priceCents": 800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90291858",
+    "name": "Glass door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 6000,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "10364523",
+    "name": "Door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 6800,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "50425987",
+    "name": "Door/drawer front",
+    "category": "Bookcases & shelving units",
+    "priceCents": 5400,
+    "width": 60,
+    "height": 38,
+    "depth": null
+  },
+  {
+    "itemId": "30425988",
+    "name": "Drawer front",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3800,
+    "width": 60,
+    "height": 26,
+    "depth": null
+  },
+  {
+    "itemId": "70318161",
+    "name": "Shelf",
+    "category": "Bookcases & shelving units",
+    "priceCents": 1560,
+    "width": 42,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "80340048",
+    "name": "Suspension rail",
+    "category": "Bookcases & shelving units",
+    "priceCents": 800,
+    "width": 63,
+    "height": 4,
+    "depth": 1
+  },
+  {
+    "itemId": "89283005",
+    "name": "Shelving unit with cabinets",
+    "category": "Bookcases & shelving units",
+    "priceCents": 26800,
+    "width": 85,
+    "height": 110,
+    "depth": 40
+  },
+  {
+    "itemId": "70428904",
+    "name": "Leg",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50275619",
+    "name": "Glass door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3200,
+    "width": 40,
+    "height": 35,
+    "depth": null
+  },
+  {
+    "itemId": "00333278",
+    "name": "Post",
+    "category": "Bookcases & shelving units",
+    "priceCents": 3600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80291854",
+    "name": "Glass door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4000,
+    "width": 60,
+    "height": 38,
+    "depth": null
+  },
+  {
+    "itemId": "69272649",
+    "name": "Shelving unit",
+    "category": "Bookcases & shelving units",
+    "priceCents": 15000,
+    "width": 65,
+    "height": 110,
+    "depth": 55
+  },
+  {
+    "itemId": "60291845",
+    "name": "Door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4000,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "69275718",
+    "name": "Shelving unit with cabinets",
+    "category": "Bookcases & shelving units",
+    "priceCents": 53600,
+    "width": 170,
+    "height": 110,
+    "depth": 40
+  },
+  {
+    "itemId": "89297663",
+    "name": "Frame/w bskts/clths rl/shlv uts",
+    "category": "Bookcases & shelving units",
+    "priceCents": 26800,
+    "width": 173,
+    "height": 173,
+    "depth": 51
+  },
+  {
+    "itemId": "29248345",
+    "name": "2 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 36240,
+    "width": 134,
+    "height": 226,
+    "depth": 50
+  },
+  {
+    "itemId": "00423721",
+    "name": "Insert with mirror door",
+    "category": "Bookcases & shelving units",
+    "priceCents": 4000,
+    "width": 33,
+    "height": 33,
+    "depth": 38
+  },
+  {
+    "itemId": "79248319",
+    "name": "2 sections/shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 17600,
+    "width": 134,
+    "height": 179,
+    "depth": 30
+  },
+  {
+    "itemId": "89297677",
+    "name": "Frame/wire baskets/top shelves",
+    "category": "Bookcases & shelving units",
+    "priceCents": 22400,
+    "width": 148,
+    "height": 104,
+    "depth": 51
+  },
+  {
+    "itemId": "9291622",
+    "name": "Shelving unit with cabinet",
+    "category": "Bookcases & shelving units",
+    "priceCents": 45800,
+    "width": 251,
+    "height": 161,
+    "depth": 37
+  },
+  {
+    "itemId": "59311463",
+    "name": "Frame/mesh baskets/clothes rails",
+    "category": "Bookcases & shelving units",
+    "priceCents": 39000,
+    "width": 148,
+    "height": 207,
+    "depth": 51
+  },
+  {
+    "itemId": "79305102",
+    "name": "Frame/wire baskets/clothes rails",
+    "category": "Bookcases & shelving units",
+    "priceCents": 25200,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70328669",
+    "name": "Cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 7000,
+    "width": 60,
+    "height": 35,
+    "depth": 35
+  },
+  {
+    "itemId": "69287392",
+    "name": "Bookcase with door",
+    "category": "Cabinets & cupboards",
+    "priceCents": 7800,
+    "width": 40,
+    "height": 106,
+    "depth": 30
+  },
+  {
+    "itemId": "50413507",
+    "name": "Glass-door cabinet with 3 drawers",
+    "category": "Cabinets & cupboards",
+    "priceCents": 63800,
+    "width": 90,
+    "height": 197,
+    "depth": 37
+  },
+  {
+    "itemId": "19279177",
+    "name": "Cabinet combination",
+    "category": "Cabinets & cupboards",
+    "priceCents": 14000,
+    "width": 120,
+    "height": 35,
+    "depth": 35
+  },
+  {
+    "itemId": "50300666",
+    "name": "Cabinet with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 17800,
+    "width": 78,
+    "height": 95,
+    "depth": 41
+  },
+  {
+    "itemId": "00359739",
+    "name": "Smart lock",
+    "category": "Cabinets & cupboards",
+    "priceCents": 3800,
+    "width": 3,
+    "height": 7,
+    "depth": null
+  },
+  {
+    "itemId": "19205884",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 74800,
+    "width": 120,
+    "height": 192,
+    "depth": 40
+  },
+  {
+    "itemId": "00396416",
+    "name": "Glass-door cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 39800,
+    "width": 73,
+    "height": 175,
+    "depth": 42
+  },
+  {
+    "itemId": "59275101",
+    "name": "Cabinet with plinth",
+    "category": "Cabinets & cupboards",
+    "priceCents": 37000,
+    "width": 81,
+    "height": 134,
+    "depth": 37
+  },
+  {
+    "itemId": "10251451",
+    "name": "Cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 17000,
+    "width": 119,
+    "height": 63,
+    "depth": 40
+  },
+  {
+    "itemId": "29301762",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 41800,
+    "width": 120,
+    "height": 202,
+    "depth": 42
+  },
+  {
+    "itemId": "60342072",
+    "name": "Cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 31840,
+    "width": 118,
+    "height": 110,
+    "depth": 38
+  },
+  {
+    "itemId": "79281790",
+    "name": "Bookcase with panel/glass doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 37200,
+    "width": 120,
+    "height": 202,
+    "depth": 30
+  },
+  {
+    "itemId": "29279186",
+    "name": "Cabinet combination",
+    "category": "Cabinets & cupboards",
+    "priceCents": 28000,
+    "width": 120,
+    "height": 70,
+    "depth": 35
+  },
+  {
+    "itemId": "10295539",
+    "name": "Shelf",
+    "category": "Cabinets & cupboards",
+    "priceCents": 1000,
+    "width": 56,
+    "height": null,
+    "depth": 16
+  },
+  {
+    "itemId": "29285776",
+    "name": "Storage combination w sliding doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 211600,
+    "width": 320,
+    "height": 120,
+    "depth": 45
+  },
+  {
+    "itemId": "50365139",
+    "name": "Cabinet with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 37800,
+    "width": 80,
+    "height": 120,
+    "depth": 45
+  },
+  {
+    "itemId": "49249396",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 35000,
+    "width": 45,
+    "height": 167,
+    "depth": 47
+  },
+  {
+    "itemId": "00245842",
+    "name": "Frame",
+    "category": "Cabinets & cupboards",
+    "priceCents": 9000,
+    "width": 60,
+    "height": 192,
+    "depth": 40
+  },
+  {
+    "itemId": "00242278",
+    "name": "Glass-door cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 27040,
+    "width": 57,
+    "height": 150,
+    "depth": 47
+  },
+  {
+    "itemId": "99266053",
+    "name": "Storage combination w glass-doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 76000,
+    "width": 162,
+    "height": 134,
+    "depth": 37
+  },
+  {
+    "itemId": "59249409",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 26000,
+    "width": 45,
+    "height": 142,
+    "depth": 47
+  },
+  {
+    "itemId": "70388620",
+    "name": "Cabinet with plinth",
+    "category": "Cabinets & cupboards",
+    "priceCents": 39800,
+    "width": 121,
+    "height": 89,
+    "depth": 47
+  },
+  {
+    "itemId": "30428915",
+    "name": "Cabinet with 2 drawers",
+    "category": "Cabinets & cupboards",
+    "priceCents": 7800,
+    "width": 35,
+    "height": 35,
+    "depth": 35
+  },
+  {
+    "itemId": "49265999",
+    "name": "Storage combination",
+    "category": "Cabinets & cupboards",
+    "priceCents": 49600,
+    "width": 81,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "30342078",
+    "name": "Glass-door cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 54240,
+    "width": 118,
+    "height": 203,
+    "depth": 38
+  },
+  {
+    "itemId": "40363621",
+    "name": "Cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 13000,
+    "width": 45,
+    "height": 75,
+    "depth": 47
+  },
+  {
+    "itemId": "00347510",
+    "name": "Knob",
+    "category": "Cabinets & cupboards",
+    "priceCents": 880,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70247376",
+    "name": "Frame",
+    "category": "Cabinets & cupboards",
+    "priceCents": 9000,
+    "width": 120,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "50363729",
+    "name": "Cabinet",
+    "category": "Cabinets & cupboards",
+    "priceCents": 11000,
+    "width": 45,
+    "height": 50,
+    "depth": 47
+  },
+  {
+    "itemId": "30365135",
+    "name": "Cabinet with sliding doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 101800,
+    "width": 160,
+    "height": 120,
+    "depth": 45
+  },
+  {
+    "itemId": "20347514",
+    "name": "Handle",
+    "category": "Cabinets & cupboards",
+    "priceCents": 1400,
+    "width": 17,
+    "height": null,
+    "depth": 30
+  },
+  {
+    "itemId": "70247381",
+    "name": "Frame",
+    "category": "Cabinets & cupboards",
+    "priceCents": 5400,
+    "width": 60,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "29204431",
+    "name": "Cabinet combination for TV",
+    "category": "Cabinets & cupboards",
+    "priceCents": 58760,
+    "width": 180,
+    "height": 170,
+    "depth": 40
+  },
+  {
+    "itemId": "99249520",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 63000,
+    "width": 90,
+    "height": 167,
+    "depth": 47
+  },
+  {
+    "itemId": "19266033",
+    "name": "Storage comb w sliding glass doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 105800,
+    "width": 283,
+    "height": 134,
+    "depth": 37
+  },
+  {
+    "itemId": "79282544",
+    "name": "Storage unit on castors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 54200,
+    "width": 61,
+    "height": 101,
+    "depth": 45
+  },
+  {
+    "itemId": "89291312",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 13000,
+    "width": 45,
+    "height": 67,
+    "depth": 47
+  },
+  {
+    "itemId": "10299877",
+    "name": "TV bench",
+    "category": "Cabinets & cupboards",
+    "priceCents": 23800,
+    "width": 180,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "40245840",
+    "name": "Frame",
+    "category": "Cabinets & cupboards",
+    "priceCents": 7800,
+    "width": 60,
+    "height": 128,
+    "depth": 40
+  },
+  {
+    "itemId": "49265895",
+    "name": "Storage comb w sliding glass doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 183200,
+    "width": 242,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "40296311",
+    "name": "Glass door",
+    "category": "Cabinets & cupboards",
+    "priceCents": 5000,
+    "width": 60,
+    "height": 38,
+    "depth": null
+  },
+  {
+    "itemId": "19291315",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 15000,
+    "width": 45,
+    "height": 92,
+    "depth": 47
+  },
+  {
+    "itemId": "69286806",
+    "name": "Storage unit with smart lock",
+    "category": "Cabinets & cupboards",
+    "priceCents": 40000,
+    "width": 41,
+    "height": 61,
+    "depth": 45
+  },
+  {
+    "itemId": "90338422",
+    "name": "Knob",
+    "category": "Cabinets & cupboards",
+    "priceCents": 1080,
+    "width": 21,
+    "height": null,
+    "depth": 24
+  },
+  {
+    "itemId": "39276682",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 111000,
+    "width": 135,
+    "height": 192,
+    "depth": 47
+  },
+  {
+    "itemId": "49280754",
+    "name": "Bookcase w height extension ut/drs",
+    "category": "Cabinets & cupboards",
+    "priceCents": 54800,
+    "width": 160,
+    "height": 237,
+    "depth": 30
+  },
+  {
+    "itemId": "20351515",
+    "name": "Drawer frame",
+    "category": "Cabinets & cupboards",
+    "priceCents": 3000,
+    "width": 60,
+    "height": 25,
+    "depth": 40
+  },
+  {
+    "itemId": "10338416",
+    "name": "Knob",
+    "category": "Cabinets & cupboards",
+    "priceCents": 1080,
+    "width": 20,
+    "height": null,
+    "depth": 28
+  },
+  {
+    "itemId": "00296313",
+    "name": "Glass door",
+    "category": "Cabinets & cupboards",
+    "priceCents": 6000,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "39297514",
+    "name": "TV bench with doors and drawers",
+    "category": "Cabinets & cupboards",
+    "priceCents": 58800,
+    "width": 240,
+    "height": 74,
+    "depth": 42
+  },
+  {
+    "itemId": "79249328",
+    "name": "Storage combination with doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 24000,
+    "width": 45,
+    "height": 117,
+    "depth": 47
+  },
+  {
+    "itemId": "9265920",
+    "name": "Storage combination w glass doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 119200,
+    "width": 203,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "80295300",
+    "name": "Top panel for TV",
+    "category": "Cabinets & cupboards",
+    "priceCents": 4000,
+    "width": 120,
+    "height": null,
+    "depth": 40
+  },
+  {
+    "itemId": "19275235",
+    "name": "Storage comb w sliding glass doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 147200,
+    "width": 243,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "79286896",
+    "name": "Storage unit with smart lock",
+    "category": "Cabinets & cupboards",
+    "priceCents": 48000,
+    "width": 41,
+    "height": 101,
+    "depth": 45
+  },
+  {
+    "itemId": "99234255",
+    "name": "Storage combination w doors/drawers",
+    "category": "Cabinets & cupboards",
+    "priceCents": 106640,
+    "width": 188,
+    "height": 197,
+    "depth": 37
+  },
+  {
+    "itemId": "30338420",
+    "name": "Knob",
+    "category": "Cabinets & cupboards",
+    "priceCents": 880,
+    "width": 13,
+    "height": null,
+    "depth": 24
+  },
+  {
+    "itemId": "30428901",
+    "name": "Glass door",
+    "category": "Cabinets & cupboards",
+    "priceCents": 1800,
+    "width": 32,
+    "height": 32,
+    "depth": null
+  },
+  {
+    "itemId": "9266024",
+    "name": "Storage combination w glass-doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 101000,
+    "width": 243,
+    "height": 134,
+    "depth": 37
+  },
+  {
+    "itemId": "10363632",
+    "name": "Pair of legs",
+    "category": "Cabinets & cupboards",
+    "priceCents": 2000,
+    "width": 45,
+    "height": 29,
+    "depth": 2
+  },
+  {
+    "itemId": "29336356",
+    "name": "Wall cabinet with glass door",
+    "category": "Cabinets & cupboards",
+    "priceCents": 5000,
+    "width": 35,
+    "height": 35,
+    "depth": 25
+  },
+  {
+    "itemId": "29336380",
+    "name": "Wall-mounted storage combination",
+    "category": "Cabinets & cupboards",
+    "priceCents": 15360,
+    "width": 105,
+    "height": 70,
+    "depth": 35
+  },
+  {
+    "itemId": "99265911",
+    "name": "Storage comb w sliding glass doors",
+    "category": "Cabinets & cupboards",
+    "priceCents": 91600,
+    "width": 121,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "49329331",
+    "name": "TV bench",
+    "category": "Cabinets & cupboards",
+    "priceCents": 35600,
+    "width": 180,
+    "height": 39,
+    "depth": 42
+  },
+  {
+    "itemId": "79275138",
+    "name": "Storage combination",
+    "category": "Cabinets & cupboards",
+    "priceCents": 89400,
+    "width": 142,
+    "height": 212,
+    "depth": 47
+  },
+  {
+    "itemId": "9329390",
+    "name": "Wall-mounted cabinet combination",
+    "category": "Cabinets & cupboards",
+    "priceCents": 31080,
+    "width": 175,
+    "height": 70,
+    "depth": 35
+  },
+  {
+    "itemId": "40291851",
+    "name": "Drawer front",
+    "category": "Cabinets & cupboards",
+    "priceCents": 2000,
+    "width": 60,
+    "height": 26,
+    "depth": null
+  },
+  {
+    "itemId": "60428990",
+    "name": "Bench",
+    "category": "Café furniture",
+    "priceCents": 11800,
+    "width": 29,
+    "height": 45,
+    "depth": null
+  },
+  {
+    "itemId": "00428974",
+    "name": "Stool",
+    "category": "Café furniture",
+    "priceCents": 5800,
+    "width": 45,
+    "height": 45,
+    "depth": 29
+  },
+  {
+    "itemId": "30428982",
+    "name": "Table",
+    "category": "Café furniture",
+    "priceCents": 23840,
+    "width": 74,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "89323921",
+    "name": "Table",
+    "category": "Café furniture",
+    "priceCents": 18000,
+    "width": 70,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "60246080",
+    "name": "Chair",
+    "category": "Café furniture",
+    "priceCents": 7200,
+    "width": 50,
+    "height": 76,
+    "depth": 46
+  },
+  {
+    "itemId": "10422504",
+    "name": "Chair",
+    "category": "Café furniture",
+    "priceCents": 13800,
+    "width": 46,
+    "height": 79,
+    "depth": 49
+  },
+  {
+    "itemId": "80417636",
+    "name": "Chair",
+    "category": "Café furniture",
+    "priceCents": 15800,
+    "width": 53,
+    "height": 71,
+    "depth": 51
+  },
+  {
+    "itemId": "80280515",
+    "name": "Chair with armrests",
+    "category": "Café furniture",
+    "priceCents": 9000,
+    "width": 54,
+    "height": 76,
+    "depth": 46
+  },
+  {
+    "itemId": "49011766",
+    "name": "Table and 2 chairs",
+    "category": "Chairs",
+    "priceCents": 7160,
+    "width": 75,
+    "height": 72,
+    "depth": null
+  },
+  {
+    "itemId": "10209202",
+    "name": "Chair cushion",
+    "category": "Chairs",
+    "priceCents": 1000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50078464",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 7800,
+    "width": 67,
+    "height": 96,
+    "depth": 85
+  },
+  {
+    "itemId": "59297184",
+    "name": "Recliner",
+    "category": "Chairs",
+    "priceCents": 55800,
+    "width": 85,
+    "height": 97,
+    "depth": 94
+  },
+  {
+    "itemId": "50434312",
+    "name": "Chair with armrests",
+    "category": "Chairs",
+    "priceCents": 15800,
+    "width": 57,
+    "height": 82,
+    "depth": 57
+  },
+  {
+    "itemId": "50058376",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 9800,
+    "width": 58,
+    "height": 79,
+    "depth": 56
+  },
+  {
+    "itemId": "10219178",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 1600,
+    "width": 39,
+    "height": 77,
+    "depth": 47
+  },
+  {
+    "itemId": "90184047",
+    "name": "Stool",
+    "category": "Chairs",
+    "priceCents": 1000,
+    "width": 40,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60217799",
+    "name": "Folding chair",
+    "category": "Chairs",
+    "priceCents": 1200,
+    "width": 41,
+    "height": 78,
+    "depth": 45
+  },
+  {
+    "itemId": "10233532",
+    "name": "Easy chair",
+    "category": "Chairs",
+    "priceCents": 7000,
+    "width": 64,
+    "height": 75,
+    "depth": 75
+  },
+  {
+    "itemId": "70392542",
+    "name": "Children's armchair",
+    "category": "Chairs",
+    "priceCents": 19800,
+    "width": 56,
+    "height": 71,
+    "depth": 62
+  },
+  {
+    "itemId": "70103250",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 7800,
+    "width": 43,
+    "height": 91,
+    "depth": 52
+  },
+  {
+    "itemId": "00152282",
+    "name": "Stool",
+    "category": "Chairs",
+    "priceCents": 7000,
+    "width": 39,
+    "height": 45,
+    "depth": 30
+  },
+  {
+    "itemId": "70261150",
+    "name": "Office chair",
+    "category": "Chairs",
+    "priceCents": 31800,
+    "width": 62,
+    "height": null,
+    "depth": 60
+  },
+  {
+    "itemId": "60178887",
+    "name": "Step stool",
+    "category": "Chairs",
+    "priceCents": 2360,
+    "width": 43,
+    "height": 50,
+    "depth": 39
+  },
+  {
+    "itemId": "90435324",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 19800,
+    "width": 60,
+    "height": 82,
+    "depth": 56
+  },
+  {
+    "itemId": "50463502",
+    "name": "Stool cover",
+    "category": "Chairs",
+    "priceCents": 2000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60416925",
+    "name": "Stool",
+    "category": "Chairs",
+    "priceCents": 2400,
+    "width": 42,
+    "height": 45,
+    "depth": 48
+  },
+  {
+    "itemId": "90350937",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 3800,
+    "width": 46,
+    "height": 80,
+    "depth": 54
+  },
+  {
+    "itemId": "90342688",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 3168,
+    "width": 41,
+    "height": 90,
+    "depth": 47
+  },
+  {
+    "itemId": "49228474",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 11000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80349671",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 13800,
+    "width": 55,
+    "height": 82,
+    "depth": 56
+  },
+  {
+    "itemId": "29272712",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 21800,
+    "width": 79,
+    "height": 78,
+    "depth": 69
+  },
+  {
+    "itemId": "10407136",
+    "name": "Swivel armchair",
+    "category": "Chairs",
+    "priceCents": 13800,
+    "width": 59,
+    "height": 75,
+    "depth": 62
+  },
+  {
+    "itemId": "59337670",
+    "name": "Children's desk chair",
+    "category": "Chairs",
+    "priceCents": 3800,
+    "width": 56,
+    "height": null,
+    "depth": 56
+  },
+  {
+    "itemId": "60441779",
+    "name": "Children's desk chair",
+    "category": "Chairs",
+    "priceCents": 7800,
+    "width": 53,
+    "height": null,
+    "depth": 53
+  },
+  {
+    "itemId": "50211104",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 21960,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19304006",
+    "name": "Chair with chair pad",
+    "category": "Chairs",
+    "priceCents": 16960,
+    "width": 57,
+    "height": 82,
+    "depth": 57
+  },
+  {
+    "itemId": "30115066",
+    "name": "Folding chair",
+    "category": "Chairs",
+    "priceCents": 1960,
+    "width": 45,
+    "height": 76,
+    "depth": 47
+  },
+  {
+    "itemId": "00262879",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 27800,
+    "width": 70,
+    "height": 75,
+    "depth": 73
+  },
+  {
+    "itemId": "40240989",
+    "name": "Foot-rest",
+    "category": "Chairs",
+    "priceCents": 2760,
+    "width": 38,
+    "height": 15,
+    "depth": null
+  },
+  {
+    "itemId": "30396655",
+    "name": "Storage bench w towel rail/4 hooks",
+    "category": "Chairs",
+    "priceCents": 19800,
+    "width": 64,
+    "height": 173,
+    "depth": 37
+  },
+  {
+    "itemId": "40455654",
+    "name": "High-back armchair",
+    "category": "Chairs",
+    "priceCents": 27800,
+    "width": 70,
+    "height": 101,
+    "depth": 58
+  },
+  {
+    "itemId": "90434310",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 17800,
+    "width": 67,
+    "height": 76,
+    "depth": 74
+  },
+  {
+    "itemId": "60248418",
+    "name": "Children's stool",
+    "category": "Chairs",
+    "priceCents": 600,
+    "width": 37,
+    "height": 13,
+    "depth": 24
+  },
+  {
+    "itemId": "90175000",
+    "name": "Chair pad",
+    "category": "Chairs",
+    "priceCents": 760,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79325223",
+    "name": "Stool",
+    "category": "Chairs",
+    "priceCents": 9000,
+    "width": 39,
+    "height": 49,
+    "depth": 51
+  },
+  {
+    "itemId": "29252549",
+    "name": "Conference chair with armrests",
+    "category": "Chairs",
+    "priceCents": 25800,
+    "width": 67,
+    "height": null,
+    "depth": 67
+  },
+  {
+    "itemId": "00410101",
+    "name": "Chair cushion",
+    "category": "Chairs",
+    "priceCents": 1160,
+    "width": 38,
+    "height": null,
+    "depth": 38
+  },
+  {
+    "itemId": "29067293",
+    "name": "Highchair with tray",
+    "category": "Chairs",
+    "priceCents": 4400,
+    "width": 56,
+    "height": 90,
+    "depth": 62
+  },
+  {
+    "itemId": "10424353",
+    "name": "Children's desk chair",
+    "category": "Chairs",
+    "priceCents": 11960,
+    "width": 62,
+    "height": null,
+    "depth": 59
+  },
+  {
+    "itemId": "90325518",
+    "name": "Swivel chair",
+    "category": "Chairs",
+    "priceCents": 8800,
+    "width": 58,
+    "height": null,
+    "depth": 58
+  },
+  {
+    "itemId": "90190411",
+    "name": "Stepladder",
+    "category": "Chairs",
+    "priceCents": 5800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30346986",
+    "name": "Padded seat cover for highchair",
+    "category": "Chairs",
+    "priceCents": 2000,
+    "width": 22,
+    "height": 40,
+    "depth": 21
+  },
+  {
+    "itemId": "00418376",
+    "name": "Active sit/stand support",
+    "category": "Chairs",
+    "priceCents": 14000,
+    "width": 60,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39261874",
+    "name": "Office chair with armrests",
+    "category": "Chairs",
+    "priceCents": 31800,
+    "width": 68,
+    "height": null,
+    "depth": 68
+  },
+  {
+    "itemId": "39296901",
+    "name": "Table and 2 chairs",
+    "category": "Chairs",
+    "priceCents": 11560,
+    "width": 75,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60341015",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 9000,
+    "width": 43,
+    "height": 95,
+    "depth": 51
+  },
+  {
+    "itemId": "60265163",
+    "name": "Step stool",
+    "category": "Chairs",
+    "priceCents": 880,
+    "width": 44,
+    "height": null,
+    "depth": 35
+  },
+  {
+    "itemId": "70434311",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 23000,
+    "width": 72,
+    "height": 42,
+    "depth": 63
+  },
+  {
+    "itemId": "39240787",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 17000,
+    "width": 68,
+    "height": 100,
+    "depth": 82
+  },
+  {
+    "itemId": "00243800",
+    "name": "Bench with shoe storage",
+    "category": "Chairs",
+    "priceCents": 11800,
+    "width": 85,
+    "height": 65,
+    "depth": 32
+  },
+  {
+    "itemId": "00385069",
+    "name": "Chair frame",
+    "category": "Chairs",
+    "priceCents": 6000,
+    "width": 50,
+    "height": 45,
+    "depth": 50
+  },
+  {
+    "itemId": "29917307",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 69000,
+    "width": 87,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "50357785",
+    "name": "Children's stool",
+    "category": "Chairs",
+    "priceCents": 1000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "99011764",
+    "name": "Table and 2 stools",
+    "category": "Chairs",
+    "priceCents": 5960,
+    "width": 75,
+    "height": 72,
+    "depth": null
+  },
+  {
+    "itemId": "70273092",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 10400,
+    "width": 47,
+    "height": 83,
+    "depth": 51
+  },
+  {
+    "itemId": "19305044",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 139000,
+    "width": 85,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "10421665",
+    "name": "Chest of 4 drawers",
+    "category": "Chairs",
+    "priceCents": 25440,
+    "width": 159,
+    "height": 50,
+    "depth": 44
+  },
+  {
+    "itemId": "40466389",
+    "name": "Recliner",
+    "category": "Chairs",
+    "priceCents": 37800,
+    "width": 66,
+    "height": 96,
+    "depth": 84
+  },
+  {
+    "itemId": "50320565",
+    "name": "Pair of armrests",
+    "category": "Chairs",
+    "priceCents": 4000,
+    "width": 15,
+    "height": 32,
+    "depth": 27
+  },
+  {
+    "itemId": "49031774",
+    "name": "Armchair",
+    "category": "Chairs",
+    "priceCents": 79800,
+    "width": 89,
+    "height": 78,
+    "depth": 89
+  },
+  {
+    "itemId": "79269180",
+    "name": "Chaise longue",
+    "category": "Chairs",
+    "priceCents": 100000,
+    "width": 78,
+    "height": 78,
+    "depth": 158
+  },
+  {
+    "itemId": "40369109",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 9000,
+    "width": 44,
+    "height": 97,
+    "depth": 56
+  },
+  {
+    "itemId": "90471581",
+    "name": "Storage bench",
+    "category": "Chairs",
+    "priceCents": 15000,
+    "width": 70,
+    "height": 51,
+    "depth": 47
+  },
+  {
+    "itemId": "29221256",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 23160,
+    "width": 75,
+    "height": 72,
+    "depth": null
+  },
+  {
+    "itemId": "70253541",
+    "name": "Junior chair",
+    "category": "Chairs",
+    "priceCents": 7800,
+    "width": 41,
+    "height": 79,
+    "depth": 43
+  },
+  {
+    "itemId": "69161482",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 71800,
+    "width": 80,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "19277036",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 165800,
+    "width": 100,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "10461010",
+    "name": "Lumbar cushion",
+    "category": "Chairs",
+    "priceCents": 1960,
+    "width": 23,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89041709",
+    "name": "Highchair with safety belt",
+    "category": "Chairs",
+    "priceCents": 3400,
+    "width": 56,
+    "height": 90,
+    "depth": 59
+  },
+  {
+    "itemId": "20013073",
+    "name": "Chair pad",
+    "category": "Chairs",
+    "priceCents": 1160,
+    "width": 42,
+    "height": null,
+    "depth": 41
+  },
+  {
+    "itemId": "39279567",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 93800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89221475",
+    "name": "Table and 2 chairs",
+    "category": "Chairs",
+    "priceCents": 43400,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "69297292",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 103000,
+    "width": 90,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "9259702",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 75000,
+    "width": 78,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "10330811",
+    "name": "Seat shell for highchair",
+    "category": "Chairs",
+    "priceCents": 4400,
+    "width": 35,
+    "height": 40,
+    "depth": 37
+  },
+  {
+    "itemId": "40340762",
+    "name": "Bench",
+    "category": "Chairs",
+    "priceCents": 15800,
+    "width": 36,
+    "height": 45,
+    "depth": null
+  },
+  {
+    "itemId": "44881100",
+    "name": "Floor protector",
+    "category": "Chairs",
+    "priceCents": 6000,
+    "width": 120,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40273593",
+    "name": "Children's stool",
+    "category": "Chairs",
+    "priceCents": 3560,
+    "width": 24,
+    "height": null,
+    "depth": 24
+  },
+  {
+    "itemId": "70330813",
+    "name": "Highchair tray",
+    "category": "Chairs",
+    "priceCents": 2200,
+    "width": 44,
+    "height": null,
+    "depth": 42
+  },
+  {
+    "itemId": "90246291",
+    "name": "Chair with armrests",
+    "category": "Chairs",
+    "priceCents": 17800,
+    "width": 57,
+    "height": 99,
+    "depth": 63
+  },
+  {
+    "itemId": "49252553",
+    "name": "Junior/highchair with tray",
+    "category": "Chairs",
+    "priceCents": 16000,
+    "width": 56,
+    "height": 87,
+    "depth": 61
+  },
+  {
+    "itemId": "60353838",
+    "name": "Junior chair",
+    "category": "Chairs",
+    "priceCents": 8800,
+    "width": 41,
+    "height": 77,
+    "depth": 45
+  },
+  {
+    "itemId": "89304791",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 63800,
+    "width": 80,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89907452",
+    "name": "Conference chair",
+    "category": "Chairs",
+    "priceCents": 8800,
+    "width": 45,
+    "height": 81,
+    "depth": 51
+  },
+  {
+    "itemId": "50346985",
+    "name": "Padded seat cover for junior chair",
+    "category": "Chairs",
+    "priceCents": 1400,
+    "width": 56,
+    "height": 36,
+    "depth": 60
+  },
+  {
+    "itemId": "19297157",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 69000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39161488",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 36760,
+    "width": 75,
+    "height": 72,
+    "depth": null
+  },
+  {
+    "itemId": "50223625",
+    "name": "Bench",
+    "category": "Chairs",
+    "priceCents": 15800,
+    "width": 37,
+    "height": 53,
+    "depth": null
+  },
+  {
+    "itemId": "79912760",
+    "name": "Table and 1 chair",
+    "category": "Chairs",
+    "priceCents": 12960,
+    "width": 74,
+    "height": null,
+    "depth": 60
+  },
+  {
+    "itemId": "80371520",
+    "name": "Children's step stool",
+    "category": "Chairs",
+    "priceCents": 3560,
+    "width": 40,
+    "height": 33,
+    "depth": 38
+  },
+  {
+    "itemId": "80290779",
+    "name": "Children's bench",
+    "category": "Chairs",
+    "priceCents": 5560,
+    "width": 55,
+    "height": 45,
+    "depth": 38
+  },
+  {
+    "itemId": "80418056",
+    "name": "Children's armchair frame",
+    "category": "Chairs",
+    "priceCents": 5360,
+    "width": 47,
+    "height": 68,
+    "depth": 56
+  },
+  {
+    "itemId": "39297118",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 83000,
+    "width": 78,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79288032",
+    "name": "Table and 6 armchairs",
+    "category": "Chairs",
+    "priceCents": 218600,
+    "width": 100,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89221319",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 122600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60403150",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 23800,
+    "width": 49,
+    "height": 83,
+    "depth": 57
+  },
+  {
+    "itemId": "20153068",
+    "name": "Chair",
+    "category": "Chairs",
+    "priceCents": 29800,
+    "width": 49,
+    "height": 77,
+    "depth": 50
+  },
+  {
+    "itemId": "49305165",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 95800,
+    "width": 95,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50165079",
+    "name": "Highchair with tray",
+    "category": "Chairs",
+    "priceCents": 15000,
+    "width": 52,
+    "height": 93,
+    "depth": 53
+  },
+  {
+    "itemId": "59221189",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 37000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00165213",
+    "name": "Junior chair",
+    "category": "Chairs",
+    "priceCents": 9000,
+    "width": 45,
+    "height": 79,
+    "depth": 48
+  },
+  {
+    "itemId": "39297236",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 65440,
+    "width": 74,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19252615",
+    "name": "Junior chair",
+    "category": "Chairs",
+    "priceCents": 9400,
+    "width": 56,
+    "height": 82,
+    "depth": 61
+  },
+  {
+    "itemId": "20396420",
+    "name": "Conference chair with castors",
+    "category": "Chairs",
+    "priceCents": 39800,
+    "width": 71,
+    "height": null,
+    "depth": 71
+  },
+  {
+    "itemId": "29259838",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 189800,
+    "width": 100,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "29304765",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 133800,
+    "width": 105,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39307706",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 234600,
+    "width": 105,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "49221321",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 110600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "59161492",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 162200,
+    "width": 100,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "59305061",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 170600,
+    "width": 100,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "69305174",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 101400,
+    "width": 95,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79277019",
+    "name": "Table and 6 chairs",
+    "category": "Chairs",
+    "priceCents": 170600,
+    "width": 100,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "89297229",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 79040,
+    "width": 74,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80389148",
+    "name": "Seat shell",
+    "category": "Chairs",
+    "priceCents": 5000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89305168",
+    "name": "Table and 4 chairs",
+    "category": "Chairs",
+    "priceCents": 115000,
+    "width": 95,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20341970",
+    "name": "Drawer unit on castors",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 7000,
+    "width": 28,
+    "height": 69,
+    "depth": 44
+  },
+  {
+    "itemId": "30326177",
+    "name": "Drawer unit",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 1960,
+    "width": 30,
+    "height": 56,
+    "depth": 34
+  },
+  {
+    "itemId": "60403584",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 22200,
+    "width": 160,
+    "height": 78,
+    "depth": 48
+  },
+  {
+    "itemId": "75305709",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 5560,
+    "width": 62,
+    "height": 70,
+    "depth": 30
+  },
+  {
+    "itemId": "20403562",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 11800,
+    "width": 80,
+    "height": 78,
+    "depth": 48
+  },
+  {
+    "itemId": "10239280",
+    "name": "Chest of 8 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 43800,
+    "width": 160,
+    "height": 96,
+    "depth": 50
+  },
+  {
+    "itemId": "60322130",
+    "name": "Chest of 2 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 3560,
+    "width": 35,
+    "height": 49,
+    "depth": 40
+  },
+  {
+    "itemId": "60403602",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 19800,
+    "width": 80,
+    "height": 123,
+    "depth": 48
+  },
+  {
+    "itemId": "00392041",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 13000,
+    "width": 78,
+    "height": 95,
+    "depth": 46
+  },
+  {
+    "itemId": "50293722",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 4600,
+    "width": 55,
+    "height": 62,
+    "depth": 36
+  },
+  {
+    "itemId": "30403571",
+    "name": "Chest of 4 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 17000,
+    "width": 80,
+    "height": 100,
+    "depth": 48
+  },
+  {
+    "itemId": "40393661",
+    "name": "Chest of 5 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 11960,
+    "width": 70,
+    "height": 112,
+    "depth": 40
+  },
+  {
+    "itemId": "70403593",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 19800,
+    "width": 40,
+    "height": 123,
+    "depth": 48
+  },
+  {
+    "itemId": "80391325",
+    "name": "Chest of 4 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 37800,
+    "width": 87,
+    "height": 76,
+    "depth": 54
+  },
+  {
+    "itemId": "20293714",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 41800,
+    "width": 127,
+    "height": 81,
+    "depth": 49
+  },
+  {
+    "itemId": "70407299",
+    "name": "Chest of 5 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 51800,
+    "width": 90,
+    "height": 90,
+    "depth": 47
+  },
+  {
+    "itemId": "90213078",
+    "name": "Drawer unit on castors",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 9800,
+    "width": 35,
+    "height": 75,
+    "depth": 50
+  },
+  {
+    "itemId": "89239507",
+    "name": "Chest of 9 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 52000,
+    "width": 160,
+    "height": 76,
+    "depth": 47
+  },
+  {
+    "itemId": "00430019",
+    "name": "Glass top",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 2800,
+    "width": 38,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79239490",
+    "name": "Chest of 12 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 74400,
+    "width": 160,
+    "height": 145,
+    "depth": 47
+  },
+  {
+    "itemId": "80433486",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 11800,
+    "width": 60,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "29239497",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 36800,
+    "width": 120,
+    "height": 54,
+    "depth": 47
+  },
+  {
+    "itemId": "9287291",
+    "name": "Drawer unit with smart lock",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 27600,
+    "width": 42,
+    "height": 61,
+    "depth": 47
+  },
+  {
+    "itemId": "49239496",
+    "name": "Chest of 4 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 36000,
+    "width": 160,
+    "height": 54,
+    "depth": 47
+  },
+  {
+    "itemId": "39239835",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 18400,
+    "width": 40,
+    "height": 76,
+    "depth": 47
+  },
+  {
+    "itemId": "10391324",
+    "name": "Chest of 4 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 37800,
+    "width": 67,
+    "height": 102,
+    "depth": 49
+  },
+  {
+    "itemId": "99239489",
+    "name": "Chest of 12 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 75200,
+    "width": 120,
+    "height": 145,
+    "depth": 47
+  },
+  {
+    "itemId": "60366789",
+    "name": "Chest of 4 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 23800,
+    "width": 82,
+    "height": 104,
+    "depth": 50
+  },
+  {
+    "itemId": "9239498",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 36800,
+    "width": 120,
+    "height": 76,
+    "depth": 47
+  },
+  {
+    "itemId": "99239494",
+    "name": "Chest of 2 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 20000,
+    "width": 80,
+    "height": 54,
+    "depth": 47
+  },
+  {
+    "itemId": "9239827",
+    "name": "Chest of 2 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 15200,
+    "width": 40,
+    "height": 54,
+    "depth": 47
+  },
+  {
+    "itemId": "10383461",
+    "name": "Modular chest of 2 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 12800,
+    "width": 80,
+    "height": 45,
+    "depth": 47
+  },
+  {
+    "itemId": "89239499",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 39200,
+    "width": 80,
+    "height": 145,
+    "depth": 47
+  },
+  {
+    "itemId": "29239505",
+    "name": "Chest of 8 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 61600,
+    "width": 160,
+    "height": 99,
+    "depth": 47
+  },
+  {
+    "itemId": "79239843",
+    "name": "Chest of 4 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 24800,
+    "width": 40,
+    "height": 99,
+    "depth": 47
+  },
+  {
+    "itemId": "90383457",
+    "name": "Modular chest of 2 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 9600,
+    "width": 40,
+    "height": 45,
+    "depth": 47
+  },
+  {
+    "itemId": "90365161",
+    "name": "Drawer unit",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 71800,
+    "width": 80,
+    "height": 80,
+    "depth": 45
+  },
+  {
+    "itemId": "20383465",
+    "name": "Modular chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 12800,
+    "width": 40,
+    "height": 68,
+    "depth": 47
+  },
+  {
+    "itemId": "69239495",
+    "name": "Chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 23200,
+    "width": 80,
+    "height": 76,
+    "depth": 47
+  },
+  {
+    "itemId": "40383474",
+    "name": "Top and plinth",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 8000,
+    "width": 120,
+    "height": 8,
+    "depth": 47
+  },
+  {
+    "itemId": "29276550",
+    "name": "Chest of 5 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 42400,
+    "width": 80,
+    "height": 122,
+    "depth": 47
+  },
+  {
+    "itemId": "79282426",
+    "name": "Storage unit on castors",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 36200,
+    "width": 41,
+    "height": 61,
+    "depth": 45
+  },
+  {
+    "itemId": "40383469",
+    "name": "Modular chest of 3 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 16000,
+    "width": 80,
+    "height": 68,
+    "depth": 47
+  },
+  {
+    "itemId": "69276633",
+    "name": "Chest of 6 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 52800,
+    "width": 120,
+    "height": 99,
+    "depth": 47
+  },
+  {
+    "itemId": "9248006",
+    "name": "Chest of 7 drawers",
+    "category": "Chests of drawers & drawer units",
+    "priceCents": 43200,
+    "width": 80,
+    "height": 99,
+    "depth": 47
+  },
+  {
+    "itemId": "10460888",
+    "name": "Wardrobe",
+    "category": "Children's furniture",
+    "priceCents": 19800,
+    "width": 80,
+    "height": 187,
+    "depth": 50
+  },
+  {
+    "itemId": "50365177",
+    "name": "Children's table",
+    "category": "Children's furniture",
+    "priceCents": 5160,
+    "width": 55,
+    "height": 48,
+    "depth": null
+  },
+  {
+    "itemId": "40365371",
+    "name": "Children's chair",
+    "category": "Children's furniture",
+    "priceCents": 2360,
+    "width": 39,
+    "height": 67,
+    "depth": 36
+  },
+  {
+    "itemId": "90365180",
+    "name": "Children's table",
+    "category": "Children's furniture",
+    "priceCents": 5960,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60357737",
+    "name": "Children's table",
+    "category": "Children's furniture",
+    "priceCents": 1800,
+    "width": 42,
+    "height": 43,
+    "depth": null
+  },
+  {
+    "itemId": "29042877",
+    "name": "Storage combination",
+    "category": "Children's furniture",
+    "priceCents": 14600,
+    "width": 99,
+    "height": 94,
+    "depth": 44
+  },
+  {
+    "itemId": "30213076",
+    "name": "Desk",
+    "category": "Children's furniture",
+    "priceCents": 7000,
+    "width": 73,
+    "height": 75,
+    "depth": 50
+  },
+  {
+    "itemId": "50298418",
+    "name": "Children's table",
+    "category": "Children's furniture",
+    "priceCents": 13960,
+    "width": 58,
+    "height": 48,
+    "depth": null
+  },
+  {
+    "itemId": "9903014",
+    "name": "Desk",
+    "category": "Children's furniture",
+    "priceCents": 18040,
+    "width": 105,
+    "height": 140,
+    "depth": 50
+  },
+  {
+    "itemId": "79898306",
+    "name": "Wall storage",
+    "category": "Children's furniture",
+    "priceCents": 6200,
+    "width": 99,
+    "height": 30,
+    "depth": 21
+  },
+  {
+    "itemId": "19102659",
+    "name": "Storage combination",
+    "category": "Children's furniture",
+    "priceCents": 15800,
+    "width": 94,
+    "height": 52,
+    "depth": 44
+  },
+  {
+    "itemId": "80213074",
+    "name": "Desk",
+    "category": "Children's furniture",
+    "priceCents": 11040,
+    "width": 105,
+    "height": 75,
+    "depth": 50
+  },
+  {
+    "itemId": "70228325",
+    "name": "Children's picnic table",
+    "category": "Children's furniture",
+    "priceCents": 8200,
+    "width": 89,
+    "height": 49,
+    "depth": null
+  },
+  {
+    "itemId": "49102304",
+    "name": "Wall storage",
+    "category": "Children's furniture",
+    "priceCents": 7800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "29228470",
+    "name": "Storage combination",
+    "category": "Children's furniture",
+    "priceCents": 14600,
+    "width": 99,
+    "height": 56,
+    "depth": 44
+  },
+  {
+    "itemId": "99228476",
+    "name": "Storage combination",
+    "category": "Children's furniture",
+    "priceCents": 10000,
+    "width": 46,
+    "height": 145,
+    "depth": 30
+  },
+  {
+    "itemId": "10269696",
+    "name": "Wardrobe",
+    "category": "Children's furniture",
+    "priceCents": 43800,
+    "width": 80,
+    "height": 171,
+    "depth": 50
+  },
+  {
+    "itemId": "95685100",
+    "name": "Storage box",
+    "category": "Children's furniture",
+    "priceCents": 600,
+    "width": 30,
+    "height": 23,
+    "depth": null
+  },
+  {
+    "itemId": "20273594",
+    "name": "Children's desk",
+    "category": "Children's furniture",
+    "priceCents": 17960,
+    "width": 92,
+    "height": null,
+    "depth": 67
+  },
+  {
+    "itemId": "90091454",
+    "name": "Shelf",
+    "category": "Children's furniture",
+    "priceCents": 1200,
+    "width": 30,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "89102095",
+    "name": "Storage combination",
+    "category": "Children's furniture",
+    "priceCents": 19000,
+    "width": 94,
+    "height": 91,
+    "depth": 44
+  },
+  {
+    "itemId": "50308002",
+    "name": "Storage box",
+    "category": "Children's furniture",
+    "priceCents": 400,
+    "width": 30,
+    "height": 10,
+    "depth": null
+  },
+  {
+    "itemId": "20089242",
+    "name": "Storage box",
+    "category": "Children's furniture",
+    "priceCents": 1000,
+    "width": 30,
+    "height": 36,
+    "depth": null
+  },
+  {
+    "itemId": "30091452",
+    "name": "Frame",
+    "category": "Children's furniture",
+    "priceCents": 6000,
+    "width": 46,
+    "height": 94,
+    "depth": 30
+  },
+  {
+    "itemId": "29103007",
+    "name": "Storage combination",
+    "category": "Children's furniture",
+    "priceCents": 9600,
+    "width": 44,
+    "height": 91,
+    "depth": 30
+  },
+  {
+    "itemId": "20308701",
+    "name": "Wall storage",
+    "category": "Children's furniture",
+    "priceCents": 6600,
+    "width": 93,
+    "height": 30,
+    "depth": 21
+  },
+  {
+    "itemId": "00091415",
+    "name": "Lid",
+    "category": "Children's furniture",
+    "priceCents": 200,
+    "width": 28,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40466285",
+    "name": "Storage box",
+    "category": "Children's furniture",
+    "priceCents": 400,
+    "width": 42,
+    "height": 10,
+    "depth": 30
+  },
+  {
+    "itemId": "30466281",
+    "name": "Storage box",
+    "category": "Children's furniture",
+    "priceCents": 600,
+    "width": 42,
+    "height": 23,
+    "depth": 30
+  },
+  {
+    "itemId": "99323614",
+    "name": "Changing tbl/bookshelf w 1 shlf ut",
+    "category": "Nursery furniture",
+    "priceCents": 14800,
+    "width": 60,
+    "height": 91,
+    "depth": 40
+  },
+  {
+    "itemId": "30199283",
+    "name": "Stor baskets changing tbl set of 4",
+    "category": "Nursery furniture",
+    "priceCents": 2360,
+    "width": 27,
+    "height": 26,
+    "depth": 23
+  },
+  {
+    "itemId": "20045205",
+    "name": "Changing table",
+    "category": "Nursery furniture",
+    "priceCents": 5800,
+    "width": 53,
+    "height": 87,
+    "depth": null
+  },
+  {
+    "itemId": "20400243",
+    "name": "Nursing pillow",
+    "category": "Nursery furniture",
+    "priceCents": 3560,
+    "width": 50,
+    "height": 18,
+    "depth": null
+  },
+  {
+    "itemId": "20307037",
+    "name": "Changing table",
+    "category": "Nursery furniture",
+    "priceCents": 31800,
+    "width": 82,
+    "height": 93,
+    "depth": 54
+  },
+  {
+    "itemId": "30465489",
+    "name": "Shelf unit",
+    "category": "Nursery furniture",
+    "priceCents": 3800,
+    "width": 29,
+    "height": 88,
+    "depth": 25
+  },
+  {
+    "itemId": "89335976",
+    "name": "Storage combination",
+    "category": "Nursery furniture",
+    "priceCents": 7800,
+    "width": 46,
+    "height": 94,
+    "depth": 30
+  },
+  {
+    "itemId": "69898415",
+    "name": "Table+2 chairs",
+    "category": "Outdoor furniture",
+    "priceCents": 7960,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "10411440",
+    "name": "Storage box",
+    "category": "Outdoor furniture",
+    "priceCents": 7000,
+    "width": 129,
+    "height": 79,
+    "depth": 44
+  },
+  {
+    "itemId": "80336466",
+    "name": "Coffee table",
+    "category": "Outdoor furniture",
+    "priceCents": 7000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39286153",
+    "name": "Table+2 chairs",
+    "category": "Outdoor furniture",
+    "priceCents": 18600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20411425",
+    "name": "Stool",
+    "category": "Outdoor furniture",
+    "priceCents": 5000,
+    "width": 35,
+    "height": 43,
+    "depth": null
+  },
+  {
+    "itemId": "50285265",
+    "name": "Cover for furniture set",
+    "category": "Outdoor furniture",
+    "priceCents": 4120,
+    "width": 70,
+    "height": 90,
+    "depth": null
+  },
+  {
+    "itemId": "70095429",
+    "name": "Table",
+    "category": "Outdoor furniture",
+    "priceCents": 3560,
+    "width": 54,
+    "height": 70,
+    "depth": null
+  },
+  {
+    "itemId": "70234185",
+    "name": "Armchair",
+    "category": "Outdoor furniture",
+    "priceCents": 7160,
+    "width": 79,
+    "height": 71,
+    "depth": 81
+  },
+  {
+    "itemId": "90095428",
+    "name": "Chair",
+    "category": "Outdoor furniture",
+    "priceCents": 2200,
+    "width": 39,
+    "height": 79,
+    "depth": 40
+  },
+  {
+    "itemId": "40411047",
+    "name": "Back cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1800,
+    "width": 62,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "49898435",
+    "name": "Table+2 chairs",
+    "category": "Outdoor furniture",
+    "priceCents": 19720,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "60240035",
+    "name": "Table",
+    "category": "Outdoor furniture",
+    "priceCents": 5960,
+    "width": 60,
+    "height": 73,
+    "depth": null
+  },
+  {
+    "itemId": "10255307",
+    "name": "Chair",
+    "category": "Outdoor furniture",
+    "priceCents": 2360,
+    "width": 44,
+    "height": 89,
+    "depth": 42
+  },
+  {
+    "itemId": "70391712",
+    "name": "Cover for back cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1560,
+    "width": 62,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40411108",
+    "name": "Seat cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 3000,
+    "width": 62,
+    "height": null,
+    "depth": 62
+  },
+  {
+    "itemId": "40151841",
+    "name": "Table",
+    "category": "Outdoor furniture",
+    "priceCents": 7800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40391718",
+    "name": "Cover for seat cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 2600,
+    "width": 62,
+    "height": null,
+    "depth": 62
+  },
+  {
+    "itemId": "59253123",
+    "name": "Seat/back cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 6000,
+    "width": 45,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50240031",
+    "name": "Chair",
+    "category": "Outdoor furniture",
+    "priceCents": 5160,
+    "width": 36,
+    "height": 87,
+    "depth": 49
+  },
+  {
+    "itemId": "00411087",
+    "name": "Chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1560,
+    "width": 44,
+    "height": null,
+    "depth": 44
+  },
+  {
+    "itemId": "80391839",
+    "name": "Inner cushion for chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20411067",
+    "name": "Chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1160,
+    "width": 36,
+    "height": null,
+    "depth": 32
+  },
+  {
+    "itemId": "10391833",
+    "name": "Inner cushion for back cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1960,
+    "width": 62,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "69253108",
+    "name": "Back cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 3520,
+    "width": 62,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90417909",
+    "name": "Chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1960,
+    "width": 50,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "80391844",
+    "name": "Inner cushion for chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1200,
+    "width": 44,
+    "height": null,
+    "depth": 44
+  },
+  {
+    "itemId": "60424586",
+    "name": "Armrest section",
+    "category": "Outdoor furniture",
+    "priceCents": 19800,
+    "width": 18,
+    "height": 53,
+    "depth": 82
+  },
+  {
+    "itemId": "30391714",
+    "name": "Cover for seat/back cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 3000,
+    "width": 45,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "59253439",
+    "name": "Chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 2360,
+    "width": 44,
+    "height": null,
+    "depth": 44
+  },
+  {
+    "itemId": "50391850",
+    "name": "Inner cushion for seat cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 3200,
+    "width": 62,
+    "height": null,
+    "depth": 62
+  },
+  {
+    "itemId": "39253077",
+    "name": "Seat cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 5800,
+    "width": 62,
+    "height": null,
+    "depth": 62
+  },
+  {
+    "itemId": "60151840",
+    "name": "Chair",
+    "category": "Outdoor furniture",
+    "priceCents": 5960,
+    "width": 42,
+    "height": 87,
+    "depth": 52
+  },
+  {
+    "itemId": "60417897",
+    "name": "Inner cushion for chair cushion",
+    "category": "Outdoor furniture",
+    "priceCents": 1400,
+    "width": 50,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "70301537",
+    "name": "Shelving unit",
+    "category": "Room dividers",
+    "priceCents": 29000,
+    "width": 182,
+    "height": 182,
+    "depth": 39
+  },
+  {
+    "itemId": "30275861",
+    "name": "Shelving unit",
+    "category": "Room dividers",
+    "priceCents": 19800,
+    "width": 147,
+    "height": 147,
+    "depth": 39
+  },
+  {
+    "itemId": "9208029",
+    "name": "Storage combination with doors",
+    "category": "Sideboards, buffets & console tables",
+    "priceCents": 66000,
+    "width": 180,
+    "height": 112,
+    "depth": 42
+  },
+  {
+    "itemId": "89265836",
+    "name": "Storage combination",
+    "category": "Sideboards, buffets & console tables",
+    "priceCents": 62000,
+    "width": 162,
+    "height": 134,
+    "depth": 37
+  },
+  {
+    "itemId": "79275119",
+    "name": "Glass-door cabinet with plinth",
+    "category": "Sideboards, buffets & console tables",
+    "priceCents": 55800,
+    "width": 121,
+    "height": 134,
+    "depth": 37
+  },
+  {
+    "itemId": "9251777",
+    "name": "2-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 39800,
+    "width": 180,
+    "height": 66,
+    "depth": 88
+  },
+  {
+    "itemId": "00385314",
+    "name": "Pouffe",
+    "category": "Sofas & armchairs",
+    "priceCents": 9800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20033919",
+    "name": "Stool",
+    "category": "Sofas & armchairs",
+    "priceCents": 7800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "59270274",
+    "name": "2-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 79800,
+    "width": 164,
+    "height": 78,
+    "depth": 89
+  },
+  {
+    "itemId": "50360009",
+    "name": "Footstool",
+    "category": "Sofas & armchairs",
+    "priceCents": 12000,
+    "width": 60,
+    "height": 44,
+    "depth": 40
+  },
+  {
+    "itemId": "40266682",
+    "name": "Footstool with storage",
+    "category": "Sofas & armchairs",
+    "priceCents": 3800,
+    "width": 36,
+    "height": 36,
+    "depth": null
+  },
+  {
+    "itemId": "89272667",
+    "name": "3-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 151800,
+    "width": 242,
+    "height": 78,
+    "depth": null
+  },
+  {
+    "itemId": "10434309",
+    "name": "Footstool with storage",
+    "category": "Sofas & armchairs",
+    "priceCents": 13000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79150751",
+    "name": "Corner sofa-bed",
+    "category": "Sofas & armchairs",
+    "priceCents": 119800,
+    "width": 230,
+    "height": 96,
+    "depth": 151
+  },
+  {
+    "itemId": "9270295",
+    "name": "3-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 139800,
+    "width": 204,
+    "height": 78,
+    "depth": 89
+  },
+  {
+    "itemId": "40399314",
+    "name": "2-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 51800,
+    "width": 177,
+    "height": 66,
+    "depth": 88
+  },
+  {
+    "itemId": "80245051",
+    "name": "Three-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 267200,
+    "width": 211,
+    "height": 80,
+    "depth": 88
+  },
+  {
+    "itemId": "20394317",
+    "name": "Armchair cushion",
+    "category": "Sofas & armchairs",
+    "priceCents": 6880,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00385309",
+    "name": "Pouffe",
+    "category": "Sofas & armchairs",
+    "priceCents": 13800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30442662",
+    "name": "Cover for recliner",
+    "category": "Sofas & armchairs",
+    "priceCents": 10000,
+    "width": 85,
+    "height": 97,
+    "depth": 94
+  },
+  {
+    "itemId": "40410335",
+    "name": "Armchair cover",
+    "category": "Sofas & armchairs",
+    "priceCents": 5800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "49269983",
+    "name": "5-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 243800,
+    "width": 360,
+    "height": 78,
+    "depth": null
+  },
+  {
+    "itemId": "50363970",
+    "name": "Pouffe",
+    "category": "Sofas & armchairs",
+    "priceCents": 17800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30292399",
+    "name": "Leg",
+    "category": "Sofas & armchairs",
+    "priceCents": 4000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "59270354",
+    "name": "4-seat sofa",
+    "category": "Sofas & armchairs",
+    "priceCents": 239800,
+    "width": 282,
+    "height": 78,
+    "depth": 158
+  },
+  {
+    "itemId": "80454493",
+    "name": "Corner section cover",
+    "category": "Sofas & armchairs",
+    "priceCents": 18000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39306368",
+    "name": "3-seat sofa-bed",
+    "category": "Sofas & armchairs",
+    "priceCents": 47800,
+    "width": 200,
+    "height": 90,
+    "depth": 97
+  },
+  {
+    "itemId": "79258308",
+    "name": "Headrest",
+    "category": "Sofas & armchairs",
+    "priceCents": 6000,
+    "width": 70,
+    "height": 20,
+    "depth": null
+  },
+  {
+    "itemId": "30105901",
+    "name": "Armchair cushion",
+    "category": "Sofas & armchairs",
+    "priceCents": 31400,
+    "width": 56,
+    "height": 7,
+    "depth": null
+  },
+  {
+    "itemId": "60289324",
+    "name": "Legs for bench",
+    "category": "Sofas & armchairs",
+    "priceCents": 4000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70410089",
+    "name": "Cover for headrest",
+    "category": "Sofas & armchairs",
+    "priceCents": 2000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "49270260",
+    "name": "Chaise longue",
+    "category": "Sofas & armchairs",
+    "priceCents": 72000,
+    "width": 78,
+    "height": 78,
+    "depth": 158
+  },
+  {
+    "itemId": "20387939",
+    "name": "Cover for corner sofa-bed",
+    "category": "Sofas & armchairs",
+    "priceCents": 22000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "39286855",
+    "name": "Cabinet combination for TV",
+    "category": "TV & media furniture",
+    "priceCents": 63120,
+    "width": 300,
+    "height": 210,
+    "depth": 42
+  },
+  {
+    "itemId": "00450088",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 2000,
+    "width": 90,
+    "height": 45,
+    "depth": 26
+  },
+  {
+    "itemId": "50409874",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 23800,
+    "width": 180,
+    "height": 53,
+    "depth": 41
+  },
+  {
+    "itemId": "80227797",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 19040,
+    "width": 160,
+    "height": 45,
+    "depth": 42
+  },
+  {
+    "itemId": "70303428",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 9800,
+    "width": 100,
+    "height": 53,
+    "depth": 36
+  },
+  {
+    "itemId": "60245844",
+    "name": "Frame",
+    "category": "TV & media furniture",
+    "priceCents": 6800,
+    "width": 120,
+    "height": 38,
+    "depth": 40
+  },
+  {
+    "itemId": "50413526",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 39800,
+    "width": 148,
+    "height": 57,
+    "depth": 47
+  },
+  {
+    "itemId": "40337694",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 17000,
+    "width": 120,
+    "height": 53,
+    "depth": 41
+  },
+  {
+    "itemId": "60239715",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 67800,
+    "width": 160,
+    "height": 50,
+    "depth": 40
+  },
+  {
+    "itemId": "19299571",
+    "name": "TV storage combination",
+    "category": "TV & media furniture",
+    "priceCents": 135440,
+    "width": 326,
+    "height": 197,
+    "depth": null
+  },
+  {
+    "itemId": "39184343",
+    "name": "TV storage combination",
+    "category": "TV & media furniture",
+    "priceCents": 34800,
+    "width": 180,
+    "height": 190,
+    "depth": 41
+  },
+  {
+    "itemId": "29278219",
+    "name": "TV storage combination",
+    "category": "TV & media furniture",
+    "priceCents": 55400,
+    "width": 336,
+    "height": 95,
+    "depth": 41
+  },
+  {
+    "itemId": "89299539",
+    "name": "TV storage combination",
+    "category": "TV & media furniture",
+    "priceCents": 95400,
+    "width": 245,
+    "height": 197,
+    "depth": null
+  },
+  {
+    "itemId": "90295540",
+    "name": "Shelf",
+    "category": "TV & media furniture",
+    "priceCents": 1000,
+    "width": 56,
+    "height": null,
+    "depth": 36
+  },
+  {
+    "itemId": "59184337",
+    "name": "TV storage combination",
+    "category": "TV & media furniture",
+    "priceCents": 32800,
+    "width": 200,
+    "height": 95,
+    "depth": 41
+  },
+  {
+    "itemId": "99278225",
+    "name": "TV storage combination/glass doors",
+    "category": "TV & media furniture",
+    "priceCents": 50600,
+    "width": 276,
+    "height": 95,
+    "depth": 41
+  },
+  {
+    "itemId": "50291676",
+    "name": "Door",
+    "category": "TV & media furniture",
+    "priceCents": 2200,
+    "width": 60,
+    "height": 64,
+    "depth": null
+  },
+  {
+    "itemId": "20334309",
+    "name": "Handle",
+    "category": "TV & media furniture",
+    "priceCents": 3000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50347517",
+    "name": "Cup handle",
+    "category": "TV & media furniture",
+    "priceCents": 1400,
+    "width": 22,
+    "height": null,
+    "depth": 30
+  },
+  {
+    "itemId": "40291629",
+    "name": "Drawer front",
+    "category": "TV & media furniture",
+    "priceCents": 2400,
+    "width": 60,
+    "height": 26,
+    "depth": null
+  },
+  {
+    "itemId": "80338413",
+    "name": "Handle",
+    "category": "TV & media furniture",
+    "priceCents": 1400,
+    "width": 9,
+    "height": null,
+    "depth": 31
+  },
+  {
+    "itemId": "40299890",
+    "name": "TV bench",
+    "category": "TV & media furniture",
+    "priceCents": 19000,
+    "width": 120,
+    "height": 64,
+    "depth": 40
+  },
+  {
+    "itemId": "80338408",
+    "name": "Knob",
+    "category": "TV & media furniture",
+    "priceCents": 1080,
+    "width": 20,
+    "height": null,
+    "depth": 28
+  },
+  {
+    "itemId": "70351513",
+    "name": "Drawer frame",
+    "category": "TV & media furniture",
+    "priceCents": 2400,
+    "width": 60,
+    "height": 15,
+    "depth": 40
+  },
+  {
+    "itemId": "50291624",
+    "name": "Door/drawer front",
+    "category": "TV & media furniture",
+    "priceCents": 5000,
+    "width": 60,
+    "height": 38,
+    "depth": null
+  },
+  {
+    "itemId": "00291848",
+    "name": "Door/drawer front",
+    "category": "TV & media furniture",
+    "priceCents": 3000,
+    "width": 60,
+    "height": 38,
+    "depth": null
+  },
+  {
+    "itemId": "19011777",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 7960,
+    "width": 75,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "60214159",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 19000,
+    "width": 140,
+    "height": 73,
+    "depth": 65
+  },
+  {
+    "itemId": "50411990",
+    "name": "Tray table",
+    "category": "Tables & desks",
+    "priceCents": 2360,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90449905",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 3560,
+    "width": 55,
+    "height": 45,
+    "depth": null
+  },
+  {
+    "itemId": "10203610",
+    "name": "Dressing table",
+    "category": "Tables & desks",
+    "priceCents": 15000,
+    "width": 120,
+    "height": 78,
+    "depth": 41
+  },
+  {
+    "itemId": "00433895",
+    "name": "Side table",
+    "category": "Tables & desks",
+    "priceCents": 3400,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80213309",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 7160,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80449901",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 5960,
+    "width": 78,
+    "height": 45,
+    "depth": null
+  },
+  {
+    "itemId": "80221352",
+    "name": "Laptop table",
+    "category": "Tables & desks",
+    "priceCents": 6360,
+    "width": 100,
+    "height": 74,
+    "depth": 36
+  },
+  {
+    "itemId": "00250249",
+    "name": "Laptop stand",
+    "category": "Tables & desks",
+    "priceCents": 5160,
+    "width": 35,
+    "height": 65,
+    "depth": 55
+  },
+  {
+    "itemId": "50322239",
+    "name": "Storage table",
+    "category": "Tables & desks",
+    "priceCents": 7800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "29932181",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 4760,
+    "width": 60,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "90278277",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 25000,
+    "width": 49,
+    "height": 74,
+    "depth": 32
+  },
+  {
+    "itemId": "50434307",
+    "name": "Trolley table with storage",
+    "category": "Tables & desks",
+    "priceCents": 11000,
+    "width": 50,
+    "height": 66,
+    "depth": null
+  },
+  {
+    "itemId": "30413495",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 19800,
+    "width": 90,
+    "height": 46,
+    "depth": null
+  },
+  {
+    "itemId": "90214308",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 15800,
+    "width": 142,
+    "height": 75,
+    "depth": 50
+  },
+  {
+    "itemId": "20382932",
+    "name": "Trolley",
+    "category": "Tables & desks",
+    "priceCents": 7560,
+    "width": 45,
+    "height": 78,
+    "depth": null
+  },
+  {
+    "itemId": "90471519",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 7800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80215332",
+    "name": "Nest of tables",
+    "category": "Tables & desks",
+    "priceCents": 9960,
+    "width": 50,
+    "height": 50,
+    "depth": null
+  },
+  {
+    "itemId": "50244741",
+    "name": "Corner workstation",
+    "category": "Tables & desks",
+    "priceCents": 27600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50161321",
+    "name": "Storage table",
+    "category": "Tables & desks",
+    "priceCents": 15800,
+    "width": 50,
+    "height": 50,
+    "depth": null
+  },
+  {
+    "itemId": "10457999",
+    "name": "Holder for mobile phone/tablet",
+    "category": "Tables & desks",
+    "priceCents": 360,
+    "width": 8,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30339735",
+    "name": "Laptop table",
+    "category": "Tables & desks",
+    "priceCents": 11800,
+    "width": 100,
+    "height": 75,
+    "depth": 36
+  },
+  {
+    "itemId": "30374413",
+    "name": "Dressing table with mirror",
+    "category": "Tables & desks",
+    "priceCents": 23800,
+    "width": 100,
+    "height": 159,
+    "depth": 50
+  },
+  {
+    "itemId": "60340389",
+    "name": "Side table",
+    "category": "Tables & desks",
+    "priceCents": 5160,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80270125",
+    "name": "Side table",
+    "category": "Tables & desks",
+    "priceCents": 11960,
+    "width": 39,
+    "height": 51,
+    "depth": null
+  },
+  {
+    "itemId": "90423887",
+    "name": "Gateleg table",
+    "category": "Tables & desks",
+    "priceCents": 35960,
+    "width": 80,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "60214183",
+    "name": "Desk with pull-out panel",
+    "category": "Tables & desks",
+    "priceCents": 25800,
+    "width": 151,
+    "height": 73,
+    "depth": 65
+  },
+  {
+    "itemId": "10351441",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 10360,
+    "width": 55,
+    "height": 48,
+    "depth": null
+  },
+  {
+    "itemId": "60447677",
+    "name": "Bedside table",
+    "category": "Tables & desks",
+    "priceCents": 9800,
+    "width": 40,
+    "height": 67,
+    "depth": 40
+  },
+  {
+    "itemId": "30302299",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 11800,
+    "width": 90,
+    "height": 73,
+    "depth": 52
+  },
+  {
+    "itemId": "70399020",
+    "name": "Side table",
+    "category": "Tables & desks",
+    "priceCents": 6360,
+    "width": 45,
+    "height": 55,
+    "depth": null
+  },
+  {
+    "itemId": "14630009",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 11000,
+    "width": 75,
+    "height": 73,
+    "depth": null
+  },
+  {
+    "itemId": "20359984",
+    "name": "Dressing table",
+    "category": "Tables & desks",
+    "priceCents": 30000,
+    "width": 120,
+    "height": 86,
+    "depth": 51
+  },
+  {
+    "itemId": "00251135",
+    "name": "Table top",
+    "category": "Tables & desks",
+    "priceCents": 2360,
+    "width": 60,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20439472",
+    "name": "Dressing table",
+    "category": "Tables & desks",
+    "priceCents": 19040,
+    "width": 76,
+    "height": 79,
+    "depth": 47
+  },
+  {
+    "itemId": "60150176",
+    "name": "Laptop support",
+    "category": "Tables & desks",
+    "priceCents": 600,
+    "width": 42,
+    "height": 9,
+    "depth": 31
+  },
+  {
+    "itemId": "70455412",
+    "name": "Side table",
+    "category": "Tables & desks",
+    "priceCents": 7800,
+    "width": 50,
+    "height": 63,
+    "depth": 35
+  },
+  {
+    "itemId": "40217069",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 57800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "19282844",
+    "name": "Corner desk left",
+    "category": "Tables & desks",
+    "priceCents": 54800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "90217972",
+    "name": "Leg",
+    "category": "Tables & desks",
+    "priceCents": 600,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70294339",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 27800,
+    "width": 78,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "70245339",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 35800,
+    "width": 120,
+    "height": 74,
+    "depth": 40
+  },
+  {
+    "itemId": "80430746",
+    "name": "Dressing table",
+    "category": "Tables & desks",
+    "priceCents": 23800,
+    "width": 100,
+    "height": 78,
+    "depth": 48
+  },
+  {
+    "itemId": "70367444",
+    "name": "Bedside table",
+    "category": "Tables & desks",
+    "priceCents": 6200,
+    "width": 42,
+    "height": 55,
+    "depth": 40
+  },
+  {
+    "itemId": "30299070",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 29800,
+    "width": 118,
+    "height": 74,
+    "depth": 45
+  },
+  {
+    "itemId": "00349444",
+    "name": "Side table on castors",
+    "category": "Tables & desks",
+    "priceCents": 5960,
+    "width": 50,
+    "height": 45,
+    "depth": null
+  },
+  {
+    "itemId": "70299959",
+    "name": "Bedside table",
+    "category": "Tables & desks",
+    "priceCents": 13000,
+    "width": 51,
+    "height": 59,
+    "depth": 40
+  },
+  {
+    "itemId": "90180025",
+    "name": "Add-on unit high",
+    "category": "Tables & desks",
+    "priceCents": 7000,
+    "width": 105,
+    "height": 65,
+    "depth": 16
+  },
+  {
+    "itemId": "20400276",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 25800,
+    "width": 70,
+    "height": 40,
+    "depth": null
+  },
+  {
+    "itemId": "80217524",
+    "name": "Wall-mounted dropleaf table",
+    "category": "Tables & desks",
+    "priceCents": 9000,
+    "width": 90,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "90372454",
+    "name": "Castor",
+    "category": "Tables & desks",
+    "priceCents": 4400,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30264301",
+    "name": "Leg",
+    "category": "Tables & desks",
+    "priceCents": 2000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "10253025",
+    "name": "Left-hand corner table top",
+    "category": "Tables & desks",
+    "priceCents": 20000,
+    "width": 110,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50414210",
+    "name": "Nest of tables",
+    "category": "Tables & desks",
+    "priceCents": 17800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "70407360",
+    "name": "Bedside table",
+    "category": "Tables & desks",
+    "priceCents": 15800,
+    "width": 48,
+    "height": 8,
+    "depth": 38
+  },
+  {
+    "itemId": "19282085",
+    "name": "Desk sit/stand",
+    "category": "Tables & desks",
+    "priceCents": 118000,
+    "width": 80,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "00293772",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 99800,
+    "width": 100,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "80278273",
+    "name": "Leg cone-shaped",
+    "category": "Tables & desks",
+    "priceCents": 4000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "50219044",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 43800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "10297656",
+    "name": "Side table",
+    "category": "Tables & desks",
+    "priceCents": 11800,
+    "width": 45,
+    "height": 45,
+    "depth": null
+  },
+  {
+    "itemId": "19022808",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 44800,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "80361564",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 21800,
+    "width": 75,
+    "height": 73,
+    "depth": null
+  },
+  {
+    "itemId": "20293766",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 99800,
+    "width": 100,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "30260807",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 31800,
+    "width": 65,
+    "height": 52,
+    "depth": null
+  },
+  {
+    "itemId": "60261037",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 37800,
+    "width": 140,
+    "height": 74,
+    "depth": 70
+  },
+  {
+    "itemId": "90388978",
+    "name": "Bedside table",
+    "category": "Tables & desks",
+    "priceCents": 15800,
+    "width": 60,
+    "height": 7,
+    "depth": 39
+  },
+  {
+    "itemId": "70340807",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 31800,
+    "width": 80,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "9282547",
+    "name": "Storage unit on castors",
+    "category": "Tables & desks",
+    "priceCents": 50200,
+    "width": 61,
+    "height": 101,
+    "depth": 45
+  },
+  {
+    "itemId": "70221423",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 37800,
+    "width": 87,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "70419264",
+    "name": "Dining table",
+    "category": "Tables & desks",
+    "priceCents": 79800,
+    "width": 100,
+    "height": 73,
+    "depth": null
+  },
+  {
+    "itemId": "90297657",
+    "name": "Coffee table",
+    "category": "Tables & desks",
+    "priceCents": 15800,
+    "width": 70,
+    "height": 50,
+    "depth": null
+  },
+  {
+    "itemId": "19281024",
+    "name": "Desk",
+    "category": "Tables & desks",
+    "priceCents": 51800,
+    "width": 70,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "30250257",
+    "name": "Leg with castor",
+    "category": "Tables & desks",
+    "priceCents": 3000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "40368713",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 79800,
+    "width": 105,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "70340765",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 39800,
+    "width": 90,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "60416138",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 27800,
+    "width": 80,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "39931845",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 35800,
+    "width": 85,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "50386245",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 91800,
+    "width": 85,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "80397916",
+    "name": "Underframe for table top",
+    "category": "Tables & desks",
+    "priceCents": 33800,
+    "width": 67,
+    "height": 76,
+    "depth": null
+  },
+  {
+    "itemId": "20206806",
+    "name": "Drop-leaf table",
+    "category": "Tables & desks",
+    "priceCents": 35800,
+    "width": 80,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "60403881",
+    "name": "Table top",
+    "category": "Tables & desks",
+    "priceCents": 24000,
+    "width": 80,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "79288230",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 18000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "20368714",
+    "name": "Extendable table",
+    "category": "Tables & desks",
+    "priceCents": 59800,
+    "width": 95,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "89286805",
+    "name": "Storage unit with smart lock",
+    "category": "Tables & desks",
+    "priceCents": 40000,
+    "width": 41,
+    "height": 61,
+    "depth": 45
+  },
+  {
+    "itemId": "80346583",
+    "name": "Table",
+    "category": "Tables & desks",
+    "priceCents": 39800,
+    "width": 90,
+    "height": 74,
+    "depth": null
+  },
+  {
+    "itemId": "10412171",
+    "name": "Underframe sit/stand f table tp",
+    "category": "Tables & desks",
+    "priceCents": 95800,
+    "width": 70,
+    "height": 124,
+    "depth": null
+  },
+  {
+    "itemId": "39286898",
+    "name": "Storage unit with smart lock",
+    "category": "Tables & desks",
+    "priceCents": 44000,
+    "width": 41,
+    "height": 101,
+    "depth": 45
+  },
+  {
+    "itemId": "50420386",
+    "name": "Dining table",
+    "category": "Tables & desks",
+    "priceCents": 91800,
+    "width": 105,
+    "height": 75,
+    "depth": null
+  },
+  {
+    "itemId": "20399777",
+    "name": "Trolley",
+    "category": "Trolleys",
+    "priceCents": 3960,
+    "width": 30,
+    "height": 83,
+    "depth": null
+  },
+  {
+    "itemId": "20463056",
+    "name": "Trolley",
+    "category": "Trolleys",
+    "priceCents": 5000,
+    "width": 28,
+    "height": 65,
+    "depth": null
+  },
+  {
+    "itemId": "59276228",
+    "name": "Kitchen island with rack",
+    "category": "Trolleys",
+    "priceCents": 91800,
+    "width": 126,
+    "height": 90,
+    "depth": 79
+  },
+  {
+    "itemId": "40391657",
+    "name": "Kitchen island",
+    "category": "Trolleys",
+    "priceCents": 59800,
+    "width": 77,
+    "height": 90,
+    "depth": null
+  },
+  {
+    "itemId": "00393371",
+    "name": "Kitchen island",
+    "category": "Trolleys",
+    "priceCents": 39800,
+    "width": 72,
+    "height": 90,
+    "depth": 52
+  },
+  {
+    "itemId": "80334924",
+    "name": "Kitchen trolley",
+    "category": "Trolleys",
+    "priceCents": 27800,
+    "width": 40,
+    "height": 90,
+    "depth": null
+  },
+  {
+    "itemId": "90399284",
+    "name": "Work bench",
+    "category": "Trolleys",
+    "priceCents": 79800,
+    "width": 63,
+    "height": 92,
+    "depth": null
+  },
+  {
+    "itemId": "30240348",
+    "name": "Kitchen trolley",
+    "category": "Trolleys",
+    "priceCents": 11800,
+    "width": 50,
+    "height": 85,
+    "depth": null
+  },
+  {
+    "itemId": "80402381",
+    "name": "Rack for kitchen island",
+    "category": "Trolleys",
+    "priceCents": 16000,
+    "width": 143,
+    "height": 146,
+    "depth": 32
+  },
+  {
+    "itemId": "40201916",
+    "name": "Kitchen trolley",
+    "category": "Trolleys",
+    "priceCents": 31800,
+    "width": 43,
+    "height": 90,
+    "depth": null
+  },
+  {
+    "itemId": "90446619",
+    "name": "Chopping board",
+    "category": "Trolleys",
+    "priceCents": 1960,
+    "width": 30,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "29385672",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 33600,
+    "width": 150,
+    "height": 201,
+    "depth": 58
+  },
+  {
+    "itemId": "59336270",
+    "name": "Wardrobe with 2 doors+3 drawers",
+    "category": "Wardrobes",
+    "priceCents": 50360,
+    "width": 160,
+    "height": 181,
+    "depth": 42
+  },
+  {
+    "itemId": "19323929",
+    "name": "Wardrobe with 3 doors",
+    "category": "Wardrobes",
+    "priceCents": 35680,
+    "width": 140,
+    "height": 161,
+    "depth": 42
+  },
+  {
+    "itemId": "00441758",
+    "name": "Wardrobe with 3 doors",
+    "category": "Wardrobes",
+    "priceCents": 17960,
+    "width": 117,
+    "height": 176,
+    "depth": 55
+  },
+  {
+    "itemId": "80331973",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 1960,
+    "width": 74,
+    "height": 149,
+    "depth": 51
+  },
+  {
+    "itemId": "49246468",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 60400,
+    "width": 150,
+    "height": 201,
+    "depth": 60
+  },
+  {
+    "itemId": "40400478",
+    "name": "Wardrobe with 2 doors",
+    "category": "Wardrobes",
+    "priceCents": 19000,
+    "width": 78,
+    "height": 190,
+    "depth": 50
+  },
+  {
+    "itemId": "69128567",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 51200,
+    "width": 175,
+    "height": 201,
+    "depth": 58
+  },
+  {
+    "itemId": "00439468",
+    "name": "Open wardrobe with sliding door",
+    "category": "Wardrobes",
+    "priceCents": 39800,
+    "width": 120,
+    "height": 186,
+    "depth": 47
+  },
+  {
+    "itemId": "39127710",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 35000,
+    "width": 100,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "39304128",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 99800,
+    "width": 200,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "19127297",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 72000,
+    "width": 150,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "59218342",
+    "name": "Corner wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 64000,
+    "width": 87,
+    "height": 236,
+    "depth": null
+  },
+  {
+    "itemId": "30439476",
+    "name": "Open wardrobe with sliding door",
+    "category": "Wardrobes",
+    "priceCents": 35800,
+    "width": 120,
+    "height": 123,
+    "depth": 47
+  },
+  {
+    "itemId": "20449517",
+    "name": "Shelf",
+    "category": "Wardrobes",
+    "priceCents": 1800,
+    "width": 76,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "59328897",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 73400,
+    "width": 200,
+    "height": 236,
+    "depth": 38
+  },
+  {
+    "itemId": "39218512",
+    "name": "Corner wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 56400,
+    "width": 110,
+    "height": 236,
+    "depth": null
+  },
+  {
+    "itemId": "00298128",
+    "name": "Wardrobe",
+    "category": "Wardrobes",
+    "priceCents": 65800,
+    "width": 88,
+    "height": 208,
+    "depth": 58
+  },
+  {
+    "itemId": "49324946",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 242600,
+    "width": 250,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "49325371",
+    "name": "Wall storage",
+    "category": "Wardrobes",
+    "priceCents": 17400,
+    "width": 240,
+    "height": 40,
+    "depth": 40
+  },
+  {
+    "itemId": "89325289",
+    "name": "Open shelving unit",
+    "category": "Wardrobes",
+    "priceCents": 18000,
+    "width": null,
+    "height": null,
+    "depth": null
+  },
+  {
+    "itemId": "99329140",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 90000,
+    "width": 100,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "39157387",
+    "name": "3 sections",
+    "category": "Wardrobes",
+    "priceCents": 106240,
+    "width": 258,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "59324385",
+    "name": "Storage comb w 6 doors+3 drawers",
+    "category": "Wardrobes",
+    "priceCents": 124520,
+    "width": 420,
+    "height": 241,
+    "depth": 42
+  },
+  {
+    "itemId": "29320732",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 127600,
+    "width": 150,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "9325047",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 272200,
+    "width": 300,
+    "height": 236,
+    "depth": 60
+  },
+  {
+    "itemId": "59326469",
+    "name": "Wardrobe with 2 doors+3 drawers",
+    "category": "Wardrobes",
+    "priceCents": 31400,
+    "width": 80,
+    "height": 221,
+    "depth": 42
+  },
+  {
+    "itemId": "29324711",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 70600,
+    "width": 100,
+    "height": 201,
+    "depth": 60
+  },
+  {
+    "itemId": "59324248",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 108400,
+    "width": 150,
+    "height": 236,
+    "depth": 58
+  },
+  {
+    "itemId": "29324320",
+    "name": "Wardrobe with 6 drawers",
+    "category": "Wardrobes",
+    "priceCents": 64240,
+    "width": 140,
+    "height": 241,
+    "depth": 42
+  },
+  {
+    "itemId": "39329299",
+    "name": "Wardrobe combination",
+    "category": "Wardrobes",
+    "priceCents": 50400,
+    "width": 75,
+    "height": 201,
+    "depth": 60
+  },
+  {
+    "itemId": "79302995",
+    "name": "2 sections",
+    "category": "Wardrobes",
+    "priceCents": 64440,
+    "width": 175,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "99157902",
+    "name": "1 section",
+    "category": "Wardrobes",
+    "priceCents": 30000,
+    "width": 91,
+    "height": null,
+    "depth": 50
+  },
+  {
+    "itemId": "9158152",
+    "name": "2 sections",
+    "category": "Wardrobes",
+    "priceCents": 62880,
+    "width": 135,
+    "height": null,
+    "depth": 50
+  }
+]
