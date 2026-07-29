@@ -79,6 +79,26 @@ the bottom up.
 - **Out of scope** — Editing or cancelling a placed order, invoices/PDFs,
   email confirmations.
 
+### 3.5 Shopping assistant (chat)
+
+Added after Day 1 as a hackathon extension exercise — not part of the core
+journey in section 6, so cut this first if anything has to give.
+
+- **Should** — A buyer can chat with an assistant that searches the
+  catalogue, looks up one product's detail, checks their balance, and
+  proposes an order — using the same budget-safe rule as manual checkout:
+  proposing never spends money, only an explicit separate confirmation does.
+- **Should** — The assistant can answer open-ended requests exact category
+  matching can't ("something like a cheap Scandinavian side table") via
+  semantic search over product meaning, not just an exact field match.
+- **Status** — Built, but semantic search is not live yet: it needs a
+  Voyage AI embeddings API key in `furniture-app/.env`
+  (`VOYAGE_API_KEY`), which hasn't been added. Until then,
+  `semantic_search_catalogue` will error if the assistant tries to call it.
+- **Out of scope** — The assistant is also reachable over Telegram via a
+  local OpenClaw bot for demo purposes; that's a personal dev-machine
+  integration, not part of the deployed app itself.
+
 ## 4. Non-functional requirements
 
 - **Users**: a handful of demo buyer accounts, seeded in advance — no
@@ -140,3 +160,15 @@ doc too — resolve here or there, whichever is more convenient.)
 - The catalogue is 762 products across 17 categories, but the home page
   only shows the first 24 (no pagination/search built yet, see 3.2). Worth
   building next, or is a capped single-page view fine for the demo?
+- The shopping assistant's semantic search (3.5) needs a Voyage AI API key
+  that hasn't been obtained yet — sign up at voyageai.com and add
+  `VOYAGE_API_KEY` to `furniture-app/.env` to turn it on.
+
+## 8. Fun extras (not part of the core journey)
+
+Purely for fun — not graded, not part of the Day 1 core journey (section 6),
+and the first things to cut if they ever conflict with anything above.
+
+- A cat-themed pink Tetris game, playable as a pop-up from the header on
+  every logged-in page (catalogue, orders).
+- A pink/sakura visual theme across the header and page background.
