@@ -66,9 +66,17 @@ export default async function OrdersPage() {
                       })
                     : "Date unknown"}
                 </span>
-                <span className="font-medium text-neutral-900 dark:text-neutral-100">
-                  {formatPennies(order.totalCents)}
-                </span>
+                <div className="flex items-center gap-3">
+                  <a
+                    href={`/api/orders/${order.orderId}/invoice`}
+                    className="text-xs text-pink-600 underline hover:text-pink-700 dark:text-pink-400 dark:hover:text-pink-300"
+                  >
+                    Download invoice
+                  </a>
+                  <span className="font-medium text-neutral-900 dark:text-neutral-100">
+                    {formatPennies(order.totalCents)}
+                  </span>
+                </div>
               </div>
               <ul className="flex flex-col gap-3">
                 {order.items.map((item, index) => {

@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getCurrentUser } from "@/lib/session";
-import { placeOrder } from "@/lib/catalogue-api";
+import { placeOrder, friendlyOrderError } from "@/lib/catalogue-api";
 
 type BasketItemInput = { productId: string; quantity: number };
 
@@ -51,22 +51,8 @@ export async function POST(request: Request) {
   const result = await placeOrder(orderLines);
 
   if (!result.ok) {
-    if (result.kind === "insufficient_balance") {
-      return NextResponse.json(
-        { error: "You don't have enough balance left for this order." },
-        { status: 400 }
-      );
-    }
-    if (result.kind === "item_unavailable") {
-      return NextResponse.json(
-        { error: "One or more items in your basket are no longer available." },
-        { status: 400 }
-      );
-    }
-    return NextResponse.json(
-      { error: "Something went wrong placing your order. Please try again." },
-      { status: 502 }
-    );
+    const { status, message } = friendlyOrderError(result);
+    return NextResponse.json({ error: message }, { status });
   }
 
   return NextResponse.json({ ok: true, orderId: result.orderId, total: result.totalCents });

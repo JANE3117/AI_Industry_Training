@@ -83,16 +83,11 @@ export default function LoginPage() {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="mt-2 rounded-md bg-neutral-900 px-4 py-2 font-medium text-white transition-opacity hover:opacity-90 disabled:opacity-50 dark:bg-neutral-100 dark:text-neutral-900"
+            className="mt-2 rounded-md bg-pink-600 px-4 py-2 font-medium text-white hover:bg-pink-700 disabled:opacity-50 dark:bg-pink-500 dark:hover:bg-pink-600"
           >
             {isSubmitting ? "Logging in…" : "Log in"}
           </button>
         </form>
-
-        <p className="mt-6 text-xs text-neutral-500 dark:text-neutral-400">
-          Demo accounts: <code>alice@example.com</code> / <code>bob@example.com</code>,
-          password <code>password123</code> for both.
-        </p>
       </div>
     </main>
   );

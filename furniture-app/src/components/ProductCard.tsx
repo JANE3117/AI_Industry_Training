@@ -52,7 +52,7 @@ export function ProductCard({ id, name, description, price, imageUrl, category }
           />
           <button
             onClick={() => basket?.addToBasket(id, quantity, { name, price })}
-            className="flex-1 rounded-md bg-neutral-900 px-3 py-1.5 text-sm font-medium text-white hover:opacity-90 dark:bg-neutral-100 dark:text-neutral-900"
+            className="flex-1 rounded-md bg-pink-600 px-3 py-1.5 text-sm font-medium text-white hover:bg-pink-700 dark:bg-pink-500 dark:hover:bg-pink-600"
           >
             Add to basket
           </button>
