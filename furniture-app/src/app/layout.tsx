@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jane's Furniture Buyer Site",
+  title: "Jane's Furniture online site",
   description: "Browse the catalogue and place orders against your budget.",
 };
 

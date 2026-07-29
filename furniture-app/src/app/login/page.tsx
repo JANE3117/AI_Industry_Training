@@ -37,7 +37,7 @@ export default function LoginPage() {
     <main className="flex flex-1 items-center justify-center p-6">
       <div className="w-full max-w-sm">
         <h1 className="mb-1 text-2xl font-semibold text-neutral-900 dark:text-neutral-100">
-          Jane&apos;s Furniture Buyer Site
+          Jane&apos;s Furniture online site
         </h1>
         <p className="mb-6 text-sm text-neutral-500 dark:text-neutral-400">
           Log in to browse the catalogue and place orders.
