@@ -8,8 +8,7 @@ const adapter = new PrismaLibSql({
 const prisma = new PrismaClient({ adapter });
 
 const DEMO_USERS = [
-  { email: "alice@example.com", password: "password123", name: "Alice", budget: 100000 },
-  { email: "bob@example.com", password: "password123", name: "Bob", budget: 50000 },
+  { email: "jane@furniture.com", password: "janelyu3117", name: "Jane", budget: 100000 },
 ];
 
 const PLACEHOLDER_PRODUCTS = [
