@@ -137,3 +137,6 @@ doc too — resolve here or there, whichever is more convenient.)
   [architecture.md](architecture.md) section 7.
 - Is the budget per-buyer and fixed, or does it reset on a schedule (e.g.
   monthly)?
+- The catalogue is 762 products across 17 categories, but the home page
+  only shows the first 24 (no pagination/search built yet, see 3.2). Worth
+  building next, or is a capped single-page view fine for the demo?
