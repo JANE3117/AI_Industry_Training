@@ -19,8 +19,14 @@ export function ProductCard({ id, name, description, price, imageUrl, category }
 
   return (
     <div className="flex flex-col overflow-hidden rounded-lg border border-neutral-200 bg-white dark:border-neutral-800 dark:bg-neutral-900">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={imageUrl} alt={name} className="aspect-[4/3] w-full object-cover" />
+      {imageUrl ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img src={imageUrl} alt={name} className="aspect-[4/3] w-full object-cover" />
+      ) : (
+        <div className="flex aspect-[4/3] w-full items-center justify-center bg-neutral-100 text-xs text-neutral-400 dark:bg-neutral-800">
+          No image available
+        </div>
+      )}
       <div className="flex flex-1 flex-col gap-1 p-4">
         <span className="text-xs font-medium uppercase tracking-wide text-neutral-400">
           {category}

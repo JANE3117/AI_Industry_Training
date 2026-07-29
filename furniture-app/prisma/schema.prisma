@@ -25,6 +25,9 @@ model User {
 
 model Product {
   id          String  @id @default(cuid())
+  // item_id from the Day 1 catalogue API — needed to place a real order
+  // against this product through that API.
+  externalId  String  @unique
   name        String
   description String
   price       Int

@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/session";
 import { prisma } from "@/lib/db";
 import { formatPennies } from "@/lib/money";
+import { getBalance, getOrderHistory } from "@/lib/catalogue-api";
 import { AppHeader } from "@/components/AppHeader";
 
 export default async function OrdersPage() {
@@ -11,18 +12,20 @@ export default async function OrdersPage() {
     redirect("/login");
   }
 
-  const orders = await prisma.order.findMany({
-    where: { userId: user.id },
-    orderBy: { createdAt: "desc" },
-    include: { items: { include: { product: true } } },
-  });
+  const [{ balanceCents }, orders] = await Promise.all([getBalance(), getOrderHistory()]);
 
-  const totalSpent = orders.reduce((sum, order) => sum + order.total, 0);
-  const remaining = user.budget - totalSpent;
+  // Order history from the API only carries product id/name/price, no
+  // image — look images up locally by externalId so past orders still show
+  // the same product photos as the catalogue page.
+  const productIds = orders.flatMap((order) => order.items.map((item) => item.productId));
+  const products = await prisma.product.findMany({ where: { externalId: { in: productIds } } });
+  const imageByExternalId = new Map(products.map((product) => [product.externalId, product.imageUrl]));
+
+  const totalSpent = orders.reduce((sum, order) => sum + order.totalCents, 0);
 
   return (
     <main className="mx-auto w-full max-w-4xl flex-1 p-6">
-      <AppHeader userName={user.name} remaining={remaining} budget={user.budget} active="orders" />
+      <AppHeader userName={user.name} balance={balanceCents} active="orders" />
 
       <div className="mb-6 flex items-center justify-between rounded-lg border border-neutral-200 p-4 dark:border-neutral-800">
         <div>
@@ -51,37 +54,48 @@ export default async function OrdersPage() {
         <div className="flex flex-col gap-4">
           {orders.map((order) => (
             <div
-              key={order.id}
+              key={order.orderId}
               className="rounded-lg border border-neutral-200 p-4 dark:border-neutral-800"
             >
               <div className="mb-3 flex items-center justify-between">
                 <span className="text-sm text-neutral-500 dark:text-neutral-400">
-                  {order.createdAt.toLocaleString("en-AU", {
-                    dateStyle: "medium",
-                    timeStyle: "short",
-                  })}
+                  {order.timestamp
+                    ? new Date(order.timestamp).toLocaleString("en-AU", {
+                        dateStyle: "medium",
+                        timeStyle: "short",
+                      })
+                    : "Date unknown"}
                 </span>
                 <span className="font-medium text-neutral-900 dark:text-neutral-100">
-                  {formatPennies(order.total)}
+                  {formatPennies(order.totalCents)}
                 </span>
               </div>
               <ul className="flex flex-col gap-3">
-                {order.items.map((item) => (
-                  <li key={item.id} className="flex items-center gap-3">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={item.product.imageUrl}
-                      alt={item.product.name}
-                      className="h-14 w-14 flex-shrink-0 rounded-md border border-neutral-200 object-cover dark:border-neutral-800"
-                    />
-                    <span className="flex-1 text-sm text-neutral-700 dark:text-neutral-300">
-                      {item.product.name} × {item.quantity}
-                    </span>
-                    <span className="text-sm text-neutral-700 dark:text-neutral-300">
-                      {formatPennies(item.unitPrice * item.quantity)}
-                    </span>
-                  </li>
-                ))}
+                {order.items.map((item, index) => {
+                  const imageUrl = imageByExternalId.get(item.productId);
+                  return (
+                    <li key={`${order.orderId}-${index}`} className="flex items-center gap-3">
+                      {imageUrl ? (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={imageUrl}
+                          alt={item.name ?? "Product"}
+                          className="h-14 w-14 flex-shrink-0 rounded-md border border-neutral-200 object-cover dark:border-neutral-800"
+                        />
+                      ) : (
+                        <div className="flex h-14 w-14 flex-shrink-0 items-center justify-center rounded-md border border-neutral-200 bg-neutral-100 text-[10px] text-neutral-400 dark:border-neutral-800 dark:bg-neutral-800">
+                          No image
+                        </div>
+                      )}
+                      <span className="flex-1 text-sm text-neutral-700 dark:text-neutral-300">
+                        {item.name ?? item.productId} × {item.quantity}
+                      </span>
+                      <span className="text-sm text-neutral-700 dark:text-neutral-300">
+                        {formatPennies(item.unitPriceCents * item.quantity)}
+                      </span>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           ))}

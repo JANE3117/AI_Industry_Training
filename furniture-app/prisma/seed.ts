@@ -42,10 +42,12 @@ async function main() {
     });
   }
 
-  for (const product of PLACEHOLDER_PRODUCTS) {
+  for (const [index, product] of PLACEHOLDER_PRODUCTS.entries()) {
     const existing = await prisma.product.findFirst({ where: { name: product.name } });
     if (!existing) {
-      await prisma.product.create({ data: product });
+      // Not real catalogue API items, so there's no real item_id to use —
+      // these placeholders get overwritten once scripts/import-catalog.ts runs.
+      await prisma.product.create({ data: { ...product, externalId: `placeholder-${index + 1}` } });
     }
   }
 

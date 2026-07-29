@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { prisma } from "@/lib/db";
 import { getCurrentUser } from "@/lib/session";
-import { formatPennies } from "@/lib/money";
+import { placeOrder } from "@/lib/catalogue-api";
 
 type BasketItemInput = { productId: string; quantity: number };
 
@@ -28,6 +28,9 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Your basket is empty." }, { status: 400 });
   }
 
+  // Always re-fetch products server-side rather than trusting anything the
+  // browser sent — this also gets us each product's externalId, which is
+  // what the catalogue API actually needs to place the order.
   const products = await prisma.product.findMany({
     where: { id: { in: items.map((item) => item.productId) } },
   });
@@ -40,38 +43,31 @@ export async function POST(request: Request) {
     );
   }
 
-  const orderItems = items.map((item) => {
+  const orderLines = items.map((item) => {
     const product = productsById.get(item.productId)!;
-    return {
-      productId: product.id,
-      quantity: item.quantity,
-      unitPrice: product.price,
-    };
+    return { externalId: product.externalId, quantity: item.quantity };
   });
-  const basketTotal = orderItems.reduce((sum, item) => sum + item.unitPrice * item.quantity, 0);
 
-  const pastOrders = await prisma.order.findMany({ where: { userId: user.id } });
-  const alreadySpent = pastOrders.reduce((sum, order) => sum + order.total, 0);
-  const remaining = user.budget - alreadySpent;
+  const result = await placeOrder(orderLines);
 
-  if (basketTotal > remaining) {
+  if (!result.ok) {
+    if (result.kind === "insufficient_balance") {
+      return NextResponse.json(
+        { error: "You don't have enough balance left for this order." },
+        { status: 400 }
+      );
+    }
+    if (result.kind === "item_unavailable") {
+      return NextResponse.json(
+        { error: "One or more items in your basket are no longer available." },
+        { status: 400 }
+      );
+    }
     return NextResponse.json(
-      {
-        error: `This order costs ${formatPennies(basketTotal)} but you only have ${formatPennies(remaining)} left in your budget.`,
-      },
-      { status: 400 }
+      { error: "Something went wrong placing your order. Please try again." },
+      { status: 502 }
     );
   }
 
-  const order = await prisma.$transaction(async (tx) => {
-    const createdOrder = await tx.order.create({
-      data: { userId: user.id, total: basketTotal },
-    });
-    await tx.orderItem.createMany({
-      data: orderItems.map((item) => ({ ...item, orderId: createdOrder.id })),
-    });
-    return createdOrder;
-  });
-
-  return NextResponse.json({ ok: true, orderId: order.id, total: basketTotal });
+  return NextResponse.json({ ok: true, orderId: result.orderId, total: result.totalCents });
 }

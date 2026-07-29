@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { getCurrentUser } from "@/lib/session";
 import { prisma } from "@/lib/db";
+import { getBalance } from "@/lib/catalogue-api";
 import { AppHeader } from "@/components/AppHeader";
 import { ProductCard } from "@/components/ProductCard";
 import { BasketProvider } from "@/lib/basket-context";
@@ -11,9 +12,7 @@ export default async function HomePage() {
     redirect("/login");
   }
 
-  const orders = await prisma.order.findMany({ where: { userId: user.id } });
-  const spent = orders.reduce((total, order) => total + order.total, 0);
-  const remaining = user.budget - spent;
+  const { balanceCents } = await getBalance();
 
   const DISPLAY_LIMIT = 24;
   const [products, totalProductCount] = await Promise.all([
@@ -22,9 +21,9 @@ export default async function HomePage() {
   ]);
 
   return (
-    <BasketProvider remainingBudget={remaining}>
+    <BasketProvider remainingBudget={balanceCents}>
       <main className="mx-auto w-full max-w-6xl flex-1 p-6">
-        <AppHeader userName={user.name} remaining={remaining} budget={user.budget} active="catalogue" />
+        <AppHeader userName={user.name} balance={balanceCents} active="catalogue" />
 
         <div className="mb-6">
           <h2 className="text-lg font-medium text-neutral-900 dark:text-neutral-100">Catalogue</h2>

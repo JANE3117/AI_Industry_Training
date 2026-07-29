@@ -8,12 +8,11 @@ import { LogoutButton } from "@/components/LogoutButton";
 
 type AccountMenuProps = {
   userName: string;
-  remaining: number;
-  budget: number;
+  balance: number;
   active: "catalogue" | "orders";
 };
 
-export function AccountMenu({ userName, remaining, budget, active }: AccountMenuProps) {
+export function AccountMenu({ userName, balance, active }: AccountMenuProps) {
   const basket = useBasket();
   const [isOpen, setIsOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -61,7 +60,7 @@ export function AccountMenu({ userName, remaining, budget, active }: AccountMenu
         <span className="flex flex-col items-start leading-tight">
           <span className="font-medium text-neutral-900 dark:text-neutral-100">{userName}</span>
           <span className="text-xs text-neutral-500 dark:text-neutral-400">
-            {formatPennies(remaining)} left
+            {formatPennies(balance)} left
           </span>
         </span>
         {itemCount > 0 && (
@@ -76,8 +75,7 @@ export function AccountMenu({ userName, remaining, budget, active }: AccountMenu
           <div className="mb-3 border-b border-neutral-200 pb-3 dark:border-neutral-800">
             <p className="font-medium text-neutral-900 dark:text-neutral-100">{userName}</p>
             <p className="text-sm text-neutral-500 dark:text-neutral-400">
-              Budget remaining: <span className="font-medium">{formatPennies(remaining)}</span> of{" "}
-              {formatPennies(budget)}
+              Balance: <span className="font-medium">{formatPennies(balance)}</span>
             </p>
           </div>
 
