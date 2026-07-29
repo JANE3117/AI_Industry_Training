@@ -47,6 +47,10 @@ export type PlaceOrderResult =
       message: string;
     };
 
+// Confirmed against the live API (not just the participant guide, whose
+// example was misleadingly truncated): POST /orders takes a single call
+// with a top-level "items" array of {item_id, quantity} — one real order
+// covering the whole basket, not one order per product.
 export async function placeOrder(
   items: { externalId: string; quantity: number }[]
 ): Promise<PlaceOrderResult> {
@@ -57,7 +61,6 @@ export async function placeOrder(
     headers: {
       "x-api-key": apiKey,
       "Content-Type": "application/json",
-      "Idempotency-Key": crypto.randomUUID(),
     },
     body: JSON.stringify({
       user_id: userId,
@@ -66,18 +69,23 @@ export async function placeOrder(
   });
 
   if (response.ok) {
-    const data = (await response.json()) as { order_id: string; total_price: number; remaining_balance: number };
+    const data = (await response.json()) as { order_id: string; total_price: number };
+    // The success response's exact shape beyond order_id/total_price isn't
+    // confirmed, so get the authoritative remaining balance with a fresh
+    // call rather than guess at a "remaining_balance" field name.
+    const { balanceCents } = await getBalance();
     return {
       ok: true,
       orderId: data.order_id,
       totalCents: toCents(data.total_price),
-      remainingBalanceCents: toCents(data.remaining_balance),
+      remainingBalanceCents: balanceCents,
     };
   }
 
   // Confirmed by direct testing against the real API: 402 for insufficient
   // balance, 404 for an item_id it doesn't recognise. Other codes (422
-  // validation errors, 5xx) fall through to a generic message.
+  // validation errors, 5xx) fall through to a generic message, logged here
+  // so the real detail isn't lost.
   const body = await response.json().catch(() => ({ detail: null }));
   const detail = typeof body.detail === "string" ? body.detail : null;
 
@@ -87,6 +95,10 @@ export async function placeOrder(
   if (response.status === 404) {
     return { ok: false, kind: "item_unavailable", message: detail ?? "Item not found." };
   }
+  console.error(
+    `Catalogue API order failed: ${response.status} ${response.statusText}`,
+    JSON.stringify(body)
+  );
   return {
     ok: false,
     kind: "other",
