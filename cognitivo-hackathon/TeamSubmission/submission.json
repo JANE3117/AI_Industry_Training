@@ -1,0 +1,7 @@
+{
+  "_note": "DRAFT GUESS ONLY -- the brief describes this narratively (team, repository commit, agent endpoint) but never shows a literal submission.json example. Replace this whole file with the organizers' real template from the Submission Guide once we have it.",
+  "team_name": "TODO",
+  "repository_url": "TODO",
+  "commit_sha": "TODO",
+  "agent_endpoint": "TODO"
+}
