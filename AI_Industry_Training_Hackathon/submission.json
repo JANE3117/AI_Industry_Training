@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "team_id": "TMBL_X",
+  "team_name": "TMBL_X",
+  "github_url": "https://github.com/example/mock-team-agent",
+  "commit_sha": "0123456789abcdef0123456789abcdef01234567",
+  "agent": {
+    "endpoint": "http://172.20.x.x:8001",
+    "health_path": "/health",
+    "query_path": "/query",
+    "timeout_seconds": 300
+  },
+  "model": {
+    "endpoint": "http://172.20.x.x:8001/v1",
+    "model_name": "nemotron-8b-finance-lora"
+  }
+}

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+src/tools/afr_fts.db*
+src/tools/afr_vectors.faiss
+src/tools/afr_vectors_meta.json
+src/tools/afr_tfidf_vectorizer.pkl

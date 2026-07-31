@@ -179,44 +179,106 @@ question
   scratch. `llm-eval-nim-demo/` (NIM deploy pattern) and `langchain-basics/`
   (agent + tools pattern) are references to adapt, not shortcuts.
 - **Team status: it's a team, and a submission repo already exists.**
-  This local `cognitivo-hackathon/` folder is Jane's own working notes, not
-  the team's actual repo — the `TeamSubmission/` skeleton below was drafted
-  before this was known and may now duplicate or conflict with whatever
-  structure teammates already have. **Do not treat it as authoritative** —
-  reconcile against the real repo once we have its location (URL or local
-  clone path), and prefer the real repo's existing structure over ours where
-  they differ.
 
-## Still blocked on — need from the portal or teammates
+## Resolved (2026-07-31)
 
-The portal (`training.cognitivo.com.au`) is gated behind "Sign in with
-GitHub" — confirmed when Claude tried to fetch the challenge-brief URL
-directly, so none of this can be pulled automatically. Jane is fetching the
-first two herself (exported the same way as the challenge brief, e.g.
-print-to-PDF, or shared directly):
+- **The real team repo: `AI_Industry_Training_Hackathon`, confirmed by Jane.**
+  Cloned locally at `../AI_Industry_Training_Hackathon` (sibling folder to
+  this one), remote `https://github.com/cognitivo-aifactory/AI_Industry_Training_Hackathon.git`,
+  branch `main`. Its root already matches the required `TeamSubmission/`
+  layout exactly (`README.md`, `submission.json`, `src/`, `training/`,
+  `logs/`, `Participant_Package/`) — real work happens there, directly at
+  the repo root, not nested under a `TeamSubmission/` subfolder.
+  **This `cognitivo-hackathon/` folder's own `TeamSubmission/` draft below is
+  now superseded** — it was written before the real repo's location was
+  known. Do not build there; it's kept only as Jane's original planning
+  scratch.
+- **All previously-blocked portal docs and data are now in the real repo's
+  `Participant_Package/`**: `Setup_Instructions.md` (dataset schemas, AFR
+  search rules, fine-tuning baseline config, model-serving endpoint table),
+  `Challenge_Brief.md`, `submission-guide.md`, 3 handout docs
+  (`01_training_guide.md`, `02_execution_guide.md`,
+  `03_scoring_and_examples.md`), plus `questions_template.json`,
+  `answer_template.json`, `submission_template.json`, `validate.json`, and
+  `public_questions.jsonl` (15 real calibration questions with graded
+  expected facts). The three approved datasets (`AFR/`, `ASX/`,
+  `RBA Rates/`) are also already in the repo under `data set/`.
+- **Concrete numbers now available** (from the handout docs, not guessable
+  before): fine-tuning baseline reaches **+110% composite improvement**
+  over base Nemotron at just the step-20 checkpoint (val loss 0.098); a full
+  integrated pipeline (Qwen routing + tools + fine-tuned Nemotron) scored
+  **~74–79%** on hidden questions, vs. **0%** for a no-tool-use baseline.
+  Training a full 100-step run takes **~2–3 hours** on one GB10 node.
 
-- [ ] **Setup Instructions** — dataset schemas, AFR search rules, the
-      fine-tuning baseline config, model-serving endpoints. The brief calls
-      these "non-negotiable for reproducibility."
-- [ ] **`Participant_Package/`** — `questions_template.json`,
-      `answer_template.json`, `validate.json`, `public_questions.jsonl` (the
-      15 calibration questions with graded expected facts).
-- [ ] **Submission Guide → Required Repository Structure** — the exact
-      file-by-file breakdown for `TeamSubmission/`.
-- [ ] The actual `agent-brain` LiteLLM endpoint + credentials.
-- [ ] The real `submission.json` schema (brief only describes it in prose:
-      team, repo commit SHA, agent endpoint).
-- [ ] **The existing team repo's location** — need this to stop working in
-      a locally-diverging copy and start working in the real one.
-- [ ] **Where fine-tuning actually happens** — does Cognitivo run a shared
-      training cluster (the "cluster bootstrap" in the brief), or does the
-      team supply its own GPU/DGX box? Decides whether the
-      `llm-eval-nim-demo` workflow gets reused as-is or adapted for a remote
-      cluster.
+## Resolved (2026-07-31, later same day) — a fresh portal export
+
+Jane exported `Setup Instructions` from the live portal again and it had a
+row **missing from the copy already committed in the real repo**: the
+Model Serving Endpoints table has a 4th row, "Agent HTTP server — Port
+`8001` on the head node — Required, any other port fails." The team's own
+`src/` agent (exposing `/health`/`/query`) must bind port **8001 on the
+head node**, not the generic `:5000` shown as an example elsewhere in
+submission-guide.md. Added to
+`../AI_Industry_Training_Hackathon/Participant_Package/Setup_Instructions.md`
+directly (with a note flagging it as a later addition), since that's the
+team's working copy of this doc. **Not yet resolved: which of the two
+cluster nodes counts as the "head node"** — ask an organizer before
+deploying, since the brief elsewhere only names "brain/agent node" and
+"fine-tuning/model node," not "head node."
+
+Jane also believes the assigned cluster hostname is **`cognitivo_11`**
+(unconfirmed which node this refers to — brain/agent, fine-tuning, or a
+shared head node — and still need the actual IP address, since
+`submission.json`'s `agent.endpoint` must use an IP, not a hostname).
+
+**Follow-up same day**: Jane found `http://your-assigned-machine-ip:5000` in
+the team submission material and flagged it against the 8001 requirement
+above. Grepped the whole repo — `:5000` turns out to appear in **four**
+places (`submission.json`, `Participant_Package/submission_template.json`,
+`submission-guide.md`, `handout/02_execution_guide.md`'s architecture
+diagram), all as the same generic illustrative example, none updated when
+the "port 8001, required" line was added to Setup Instructions. This is a
+real inconsistency in the organizers' own docs, not new information.
+**Decision: trust the specific "Required... any other port will cause you
+to fail" instruction over the four generic `:5000` examples** — updated
+`submission.json`'s `agent.endpoint` port to 8001 accordingly (IP is still
+the unresolved placeholder). Given a wrong port means the health-check gate
+never gets reached at all (zero for the whole hidden-question run), this is
+still worth a direct organizer confirmation before deploying, not just our
+own best reading of conflicting docs.
+
+## Still blocked on — need from teammates or organizers (not doc problems anymore)
+
+Everything the portal docs could answer is now in `../AI_Industry_Training_Hackathon/Participant_Package/`.
+What's left is team/event-logistics information no document will resolve:
+
+- [ ] **Cluster access** — `~/.ssh/config`'s `team-atom` host was originally
+      `ssh-gigabyte15.uiof.ai` / `cognitivo_g15`; Jane corrected it
+      2026-07-31 to `ssh-gigabyte11.uiof.ai` / `cognitivo_g11` (team is 11,
+      not 15 — likely a stale/wrong value from however this config was
+      first generated). **Not yet verified against real hardware** — the
+      connection attempt before this correction failed due to a Fortinet
+      firewall on this (work/home) network doing TLS inspection on
+      `uiof.ai`, unrelated to which team number was configured. **Must test
+      from the event's own network or a connection without that content
+      filtering** (e.g. mobile hotspot) — do not bypass the certificate
+      check to work around it. Still need `~/team.env` (LiteLLM/agent-brain
+      credentials) and the assigned IP for `submission.json` once a working
+      connection is established.
 - [ ] **The exact deadline/schedule** — when hidden-question evaluation
-      runs, and when `submission.json`'s commit SHA needs to be locked in.
-      Not visible in the brief pages we have.
-- [ ] **Jane's GitHub access on the team repo** — collaborator/push access,
-      not just view, once we know where it lives.
+      runs, and when `submission.json`'s `commit_sha` needs to be locked in.
+      Not in any doc read so far.
+- [ ] **Jane's GitHub push access** on `AI_Industry_Training_Hackathon` —
+      **confirmed missing, not just unconfirmed.** Tried `git push
+      origin main` 2026-07-31 (3 local commits ready, working tree clean)
+      and got `remote: Permission to
+      cognitivo-aifactory/AI_Industry_Training_Hackathon.git denied to
+      JANE3117` (403). Verified this isn't a login/auth mixup —
+      `gh auth status` shows correctly logged in as `JANE3117` with `repo`
+      scope on the token. **Someone with admin rights on the
+      `cognitivo-aifactory` org needs to add `JANE3117` as a collaborator
+      with write access** before any of the committed work (agent runtime,
+      tools, RAG design, README updates — 3 commits, currently local-only)
+      can reach the public repo.
 - [ ] **Team role split** — who's covering agent runtime vs. fine-tuning vs.
       data prep, so effort here doesn't duplicate a teammate's work.
